@@ -1,9 +1,247 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-05T20:51:54.558Z",
+  "builtAtUtc": "2026-10-06T20:48:12.253Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "793e6e769e6f418fe890b32ea5d49ce3ec052943416b44127d8aafb56c0cfd41",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-06T20:48:12.252Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-us-session",
+            "sourceUrl": "https://uk.marketscreener.com/news/gold-climbs-as-dollar-treasury-yields-slip-ce785dd9dd8df620",
+            "retrievedAtUtc": "2026-10-06T20:43:47.081Z",
+            "verification": "reviewed",
+            "note": "Reuters配信本文の金現物の価格・変化率・18:12 UTCの観測時刻を照合。先物清算値と区別。金への影響は独自の条件付き推測。"
+          },
+          {
+            "subjectId": "material:dollar-european-bonds",
+            "sourceUrl": "https://www.marketscreener.com/news/euro-bounces-as-decline-in-french-bond-yields-cools-debt-jitters-ce785dd9dd8ef322",
+            "retrievedAtUtc": "2026-10-06T20:45:06.711Z",
+            "verification": "reviewed",
+            "note": "Reuters配信本文のユーロ・ドルとフランス国債の動きを確認。記事時刻を価格観測時刻へ転用せず、時刻不明の為替数値は省略。"
+          },
+          {
+            "subjectId": "material:us-trade-august",
+            "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+            "retrievedAtUtc": "2026-10-06T20:46:56.405Z",
+            "verification": "reviewed",
+            "note": "BEAの8月初報・7月改定値、季節調整済みの名目輸出入と08:30 EDTの発表時刻を確認。金の値動きとの因果やGDP寄与額は断定していない。"
+          },
+          {
+            "subjectId": "material:oil-eia-outlook",
+            "sourceUrl": "https://www.eia.gov/outlooks/steo/",
+            "retrievedAtUtc": "2026-10-06T20:46:16.484Z",
+            "verification": "reviewed",
+            "note": "EIAの10月6日見通し本文で年間ブレント予想と前月比較、10月1日の情報締切、G7発表の未反映を確認。予測値を原油の現在値と区別。"
+          },
+          {
+            "subjectId": "material:yen-tokyo-reference",
+            "sourceUrl": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261006.pdf",
+            "retrievedAtUtc": "2026-10-06T20:43:57.526Z",
+            "verification": "reviewed",
+            "note": "日銀PDFの10月6日09:00・17:00 JSTのドル円表示を確認。売値・買値のレンジを単一価格や終値へ変換していない。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+            "retrievedAtUtc": "2026-10-06T20:47:47.857Z",
+            "verification": "reviewed",
+            "note": "公式日程の10月7日11:00と全時刻米東部時間の表記を確認。夏時間から10月8日00:00 JSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+            "retrievedAtUtc": "2026-10-06T20:47:29.644Z",
+            "verification": "reviewed",
+            "note": "FRB公式日程の10月7日14:00を確認。公式の議事要旨公表時刻のEDT表記と照合し、10月8日03:00 JSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
+            "retrievedAtUtc": "2026-10-06T20:45:51.836Z",
+            "verification": "reviewed",
+            "note": "BLS公式日程の9月対象・10月14日08:30米東部時間を確認。夏時間から21:30 JSTへ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-07-r1",
+          "dateJst": "2026-10-07",
+          "generatedAtUtc": "2026-10-06T20:48:12.251Z",
+          "period": {
+            "startUtc": "2026-10-06T00:00:00.000Z",
+            "endUtc": "2026-10-06T20:48:12.251Z"
+          },
+          "conclusion": [
+            "【推測】金はドル安・米金利低下と安全資産需要が支えですが、原油高への警戒が実質金利を押し上げれば上昇を抑える材料になります。",
+            "【推測】次の大きな確認点は明日8日03:00 JSTのFOMC議事要旨で、金融引締めへの警戒が和らぎドル・実質金利が下がれば金を支え、反対の反応なら上値が重くなりそうです。"
+          ],
+          "materials": [
+            {
+              "id": "gold-us-session",
+              "title": "金は反発、ドル安と米金利の低下が支え",
+              "fact": "金現物は10月7日03:12 JST（6日18:12 UTC）時点で1トロイオンス4,168.33ドル、0.7%高でした。Reutersは、ドルと米国債利回りの低下に加え、フランス国債市場の混乱を背景とする安全資産需要を報じました。",
+              "outlook": "【推測】ドル安と実質金利の低下が続けば、ドル建て金の割高感や保有コストが和らぎ、金を支えやすくなります。財政不安が長期金利の上昇やドル買いを招く場合は、その支えが弱まる可能性があります。",
+              "sourceName": "Reuters",
+              "sourceUrl": "https://uk.marketscreener.com/news/gold-climbs-as-dollar-treasury-yields-slip-ce785dd9dd8df620",
+              "publishedAtUtc": "2026-10-06T18:25:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-06T20:43:47.081Z"
+            },
+            {
+              "id": "dollar-european-bonds",
+              "title": "欧州国債の緊張が一服、ドルの支え弱まる",
+              "fact": "10月6日のReuters記事は、フランス国債利回りの低下に伴ってユーロが反発し、ドル指数が下落したと報じました。欧州の財政不安を巡る債券市場の動きが、主要通貨にも波及しています。",
+              "outlook": "【推測】欧州債券市場の落ち着きがドル安につながれば、ドル建て金の割高感が和らぎ、金の支えになります。財政不安が再燃する場合は金への逃避需要が強まり得ますが、同時にドルも買われると金の上昇が抑えられる可能性があります。",
+              "sourceName": "Reuters",
+              "sourceUrl": "https://www.marketscreener.com/news/euro-bounces-as-decline-in-french-bond-yields-cools-debt-jitters-ce785dd9dd8ef322",
+              "publishedAtUtc": "2026-10-06T19:17:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-06T20:45:06.711Z"
+            },
+            {
+              "id": "us-trade-august",
+              "title": "米貿易赤字が拡大、成長見通しへの影響に注目",
+              "fact": "10月6日21:30 JST発表の米8月の財・サービス貿易赤字は1,056億ドルで、7月改定値の928億ドルから拡大しました。季節調整済みの名目輸出は前月比1.4%増、輸入は4.3%増と、輸入の伸びが上回りました。",
+              "outlook": "【推測】貿易赤字の拡大が成長鈍化への警戒を強め、ドルや米金利を押し下げる場合は金の支えになります。一方、輸入増が内需の強さとして受け止められれば金利低下につながらないため、GDPへの調整後の寄与と市場の反応が条件になります。",
+              "sourceName": "BEA",
+              "sourceUrl": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+              "publishedAtUtc": "2026-10-06T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-06T20:46:56.405Z"
+            },
+            {
+              "id": "oil-eia-outlook",
+              "title": "EIAが原油見通しを引き上げ、物価圧力は残る",
+              "fact": "EIAは10月6日公表の見通しで、2026年のブレント原油平均価格予想を前回の1バレル91ドルから96ドルへ引き上げました。ただし予測の情報締切は10月1日で、10月2日のG7による追加の原油・石油製品放出の発表は織り込んでいません。",
+              "outlook": "【推測】原油高への警戒がインフレ予想や米金融引締め観測を強め、実質金利を押し上げるなら金の上値には重荷です。備蓄放出や供給回復が価格圧力を和らげ、金利低下につながる場合は、その逆風が弱まり得ます。",
+              "sourceName": "EIA",
+              "sourceUrl": "https://www.eia.gov/outlooks/steo/",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-06",
+              "retrievedAtUtc": "2026-10-06T20:46:16.484Z"
+            },
+            {
+              "id": "yen-tokyo-reference",
+              "title": "東京のドル円は158円台、円建て金には支え",
+              "fact": "日銀の10月6日の公表資料では、ドル円は17:00 JSTに1ドル158.10〜158.13円、09:00 JSTには157.95〜157.98円でした。東京市場の時点別の参考値では、午前から夕方にかけてドル高・円安でした。",
+              "outlook": "【推測】円安は、ドル建て金が同じ価格でも円換算した金価格を押し上げる方向に働きます。ドル建て金が上昇しても、その後に円高へ転じれば円建て価格の上昇は抑えられるため、金と為替の両方が重要です。",
+              "sourceName": "日銀",
+              "sourceUrl": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261006.pdf",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-06",
+              "retrievedAtUtc": "2026-10-06T20:43:57.526Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "NY連銀・消費者期待調査",
+              "scheduledAtUtc": "2026-10-07T15:00:00.000Z",
+              "sourceName": "NY連銀",
+              "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+              "retrievedAtUtc": "2026-10-06T20:47:47.857Z",
+              "unit": "該当なし",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "9月15〜16日FOMC議事要旨",
+              "scheduledAtUtc": "2026-10-07T18:00:00.000Z",
+              "sourceName": "FRB",
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+              "retrievedAtUtc": "2026-10-06T20:47:29.644Z",
+              "unit": "該当なし",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "9月米消費者物価指数（CPI）",
+              "scheduledAtUtc": "2026-10-14T12:30:00.000Z",
+              "sourceName": "BLS",
+              "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
+              "retrievedAtUtc": "2026-10-06T20:45:51.836Z",
+              "unit": "%",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "米ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "米ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年国債利回り",
+              "value": null,
+              "unit": "%",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "890a2e78cd9eab46b32a8b619ef097ce0f0ca0866d1354deca923845b0107af7",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
