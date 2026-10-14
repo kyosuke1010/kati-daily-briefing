@@ -1,9 +1,210 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-13T21:08:18.902Z",
+  "builtAtUtc": "2026-10-14T20:48:48.713Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "85dbb033ac80320eb32ac1b42c2c42b5fa7b39ea43abc5dec8347b28fa3e12f9",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-14T20:48:48.712Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-dollar-after-cpi",
+            "sourceUrl": "https://www.aol.ca/articles/asia-shares-edge-chip-selloff-015255000.html",
+            "retrievedAtUtc": "2026-10-14T20:45:44.590Z",
+            "verification": "reviewed",
+            "note": "記事の更新時刻と金・ドル・円の数値を本文で確認。個別の約定時刻は未確認のため参考値として掲載。"
+          },
+          {
+            "subjectId": "material:september-cpi-accelerates",
+            "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+            "retrievedAtUtc": "2026-10-14T20:45:40.479Z",
+            "verification": "reviewed",
+            "note": "対象月、初回公表日時、季節調整済み前月比と調整前前年比を公式本文で確認。"
+          },
+          {
+            "subjectId": "material:hormuz-oil-pressure",
+            "sourceUrl": "https://www.aol.ca/articles/asia-shares-edge-chip-selloff-015255000.html",
+            "retrievedAtUtc": "2026-10-14T20:45:44.590Z",
+            "verification": "reviewed",
+            "note": "14日の先物清算値と船舶攻撃による供給懸念を報道本文で確認。"
+          },
+          {
+            "subjectId": "material:beige-book-price-pressure",
+            "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm",
+            "retrievedAtUtc": "2026-10-14T20:48:18.111Z",
+            "verification": "reviewed",
+            "note": "10月版の全国要約、価格・消費の記述、聞き取り締切を公式本文で確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
+            "retrievedAtUtc": "2026-10-14T20:47:57.779Z",
+            "verification": "reviewed",
+            "note": "BLS公式日程で対象月と08:30米東部時間を確認。夏時間の12:30 UTC、21:30 JSTに換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
+            "retrievedAtUtc": "2026-10-14T20:47:57.779Z",
+            "verification": "reviewed",
+            "note": "BLS公式日程で対象月と08:30米東部時間を確認。夏時間の12:30 UTC、21:30 JSTに換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-15-r1",
+          "dateJst": "2026-10-15",
+          "generatedAtUtc": "2026-10-14T20:48:48.707Z",
+          "period": {
+            "startUtc": "2026-10-14T00:00:00.000Z",
+            "endUtc": "2026-10-14T20:48:48.707Z"
+          },
+          "conclusion": [
+            "【推測】米CPIの加速を受けたドル高と引き締め警戒が金の下押し材料となる一方、中東の供給不安は安全資産需要を支える可能性があります。",
+            "【推測】次の焦点は本日15日21:30 JSTの米PPIで、物価圧力の広がりと、その後のドル・米金利の反応が金の反発力を左右します。"
+          ],
+          "materials": [
+            {
+              "id": "gold-dollar-after-cpi",
+              "title": "米CPI後に金下落、ドル上昇",
+              "fact": "米14日15:31 EDT（15日04:31 JST）更新のReuters記事では、金現物は1トロイオンス4,094.88ドル（1.49%安）、ドルは通貨バスケットに対し0.36%高、ドル円は158.16円でした。金・為替は記事時点の参考値で、終値ではありません。",
+              "outlook": "【推測】ドル高と追加引き締めへの警戒は、利息を生まない金の下押し材料です。反発の持続には、今夜のPPI後にドル高が和らぎ、米金利の上昇圧力が弱まるかを確認したいところです。",
+              "sourceName": "Reuters（AOL掲載）",
+              "sourceUrl": "https://www.aol.ca/articles/asia-shares-edge-chip-selloff-015255000.html",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-14",
+              "retrievedAtUtc": "2026-10-14T20:45:44.590Z"
+            },
+            {
+              "id": "september-cpi-accelerates",
+              "title": "米9月CPIは前年比3.7%、コアも2.6%へ",
+              "fact": "BLSが14日08:30 EDT（21:30 JST）に初回公表した9月CPIは、前月比0.6%（季節調整済み）、前年比3.7%（季節調整前）上昇。食品・エネルギーを除くコアは同0.3%、2.6%でした。ガソリンの前月比9.1%上昇が総合指数の月間上昇の半分超を占めました。",
+              "outlook": "【推測】エネルギーだけでなくコア物価も上がる状況は、引き締め警戒を通じて金に逆風となります。一方、今後エネルギー高が落ち着き基調的な物価も鈍れば、金利低下による支えが戻る余地があります。",
+              "sourceName": "BLS",
+              "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+              "publishedAtUtc": "2026-10-14T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-14T20:45:40.479Z"
+            },
+            {
+              "id": "hormuz-oil-pressure",
+              "title": "ホルムズ海峡の供給懸念、ブレント106ドル台",
+              "fact": "Reutersは14日、ホルムズ海峡での船舶2隻への攻撃を受け、エネルギー供給への不安が強まったと報道。ブレント原油先物の同日清算値は1バレル106.06ドル、0.35%高でした。",
+              "outlook": "【推測】供給不安の悪化は安全資産としての金需要を支える一方、原油高が物価・金利を押し上げれば金には逆風です。原油とドルが同時に上がる局面では、安全資産需要だけで金高を見込むのは難しくなります。",
+              "sourceName": "Reuters（AOL掲載）",
+              "sourceUrl": "https://www.aol.ca/articles/asia-shares-edge-chip-selloff-015255000.html",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-14",
+              "retrievedAtUtc": "2026-10-14T20:45:44.590Z"
+            },
+            {
+              "id": "beige-book-price-pressure",
+              "title": "ベージュブック、価格圧力と消費の弱さが併存",
+              "fact": "14日公表のFRBベージュブックでは、4地区で前回から値上がりのペースが加速し、原油高の影響は全地区の報告に及びました。多くの地区で消費支出はほぼ横ばい。10月5日までの外部関係者への聞き取りで、FRB当局者の政策見解ではありません。",
+              "outlook": "【推測】幅広い価格圧力は追加引き締めへの警戒を残し、金の上値を抑えやすい材料です。ただし消費の弱さが強まり景気懸念から金利が低下すれば、金を支える方向にも働きます。",
+              "sourceName": "Federal Reserve",
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-14",
+              "retrievedAtUtc": "2026-10-14T20:48:18.111Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米9月生産者物価指数（PPI）",
+              "scheduledAtUtc": "2026-10-15T12:30:00.000Z",
+              "sourceName": "BLS",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
+              "retrievedAtUtc": "2026-10-14T20:47:57.779Z",
+              "unit": "%",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米9月輸出入物価指数",
+              "scheduledAtUtc": "2026-10-16T12:30:00.000Z",
+              "sourceName": "BLS",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
+              "retrievedAtUtc": "2026-10-14T20:47:57.779Z",
+              "unit": "%",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "%",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "2a2126a2570d7a897a6345da5599001410e0105a9c9da9297ba552144e6430be",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
