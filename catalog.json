@@ -1,9 +1,229 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-14T20:48:48.713Z",
+  "builtAtUtc": "2026-10-15T20:48:46.547Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "d0410a7bbc8089d9c85afa211b702c717c26c218ceab4365d992e19d34cb1cb7",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-15T20:48:46.547Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-rebound-dollar-eases",
+            "sourceUrl": "https://ca.marketscreener.com/news/global-stocks-flat-as-ai-and-rate-fears-hit-tech-ce785dd3d18afe24",
+            "retrievedAtUtc": "2026-10-15T20:45:06.594Z",
+            "verification": "reviewed",
+            "note": "本文の掲載日時と相場数値を確認。約定時刻が不明な値は記事時点の参考値として記載。"
+          },
+          {
+            "subjectId": "material:september-ppi-accelerates",
+            "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+            "retrievedAtUtc": "2026-10-15T20:43:39.990Z",
+            "verification": "reviewed",
+            "note": "発表日時、対象月、季節調整区分と改定注記を公式本文で確認。"
+          },
+          {
+            "subjectId": "material:treasury-yen-snapshot",
+            "sourceUrl": "https://ca.marketscreener.com/news/global-stocks-flat-as-ai-and-rate-fears-hit-tech-ce785dd3d18afe24",
+            "retrievedAtUtc": "2026-10-15T20:45:06.594Z",
+            "verification": "reviewed",
+            "note": "本文の掲載日時と相場数値を確認。約定時刻が不明な値は記事時点の参考値として記載。"
+          },
+          {
+            "subjectId": "material:oil-diverges-stock-draw",
+            "sourceUrl": "https://ca.marketscreener.com/news/oil-prices-fall-as-investors-weigh-supply-outlook-middle-east-tensions-ce785dd3d98bfe25",
+            "retrievedAtUtc": "2026-10-15T20:45:49.000Z",
+            "verification": "reviewed",
+            "note": "本文の清算値・騰落率と供給材料を確認。周囲の更新型価格欄は使用していない。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+            "retrievedAtUtc": "2026-10-15T20:46:24.841Z",
+            "verification": "reviewed",
+            "note": "FRB予定表とIMFのバンコク現地時刻を照合し、UTC・JSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
+            "retrievedAtUtc": "2026-10-15T20:46:24.841Z",
+            "verification": "reviewed",
+            "note": "公式予定表の発表日・時刻を確認し、米東部夏時間からUTC・JSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+            "retrievedAtUtc": "2026-10-15T20:46:24.841Z",
+            "verification": "reviewed",
+            "note": "公式予定表の発表日・時刻を確認し、米東部夏時間からUTC・JSTへ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-16-r1",
+          "dateJst": "2026-10-16",
+          "generatedAtUtc": "2026-10-15T20:48:46.546Z",
+          "period": {
+            "startUtc": "2026-10-15T00:00:00.000Z",
+            "endUtc": "2026-10-15T20:48:46.546Z"
+          },
+          "conclusion": [
+            "【推測】ドル安と米長期金利の低下が金の反発を支える一方、米PPIの加速と原油の供給不安は追加引き締めへの警戒を残しています。",
+            "【推測】本日16日12:30 JSTのウォーシュFRB議長とIMF専務理事の対談、21:30 JSTの米輸出入物価が次の焦点で、発言・物価を受けてもドルと金利の低下が続くかが重要です。"
+          ],
+          "materials": [
+            {
+              "id": "gold-rebound-dollar-eases",
+              "title": "金は反発、ドル安・金利低下が支え",
+              "fact": "米15日16:04 EDT（16日05:04 JST）掲載のReuters記事では、金現物は1トロイオンス4,161.82ドル、1.38%高でした。前日の物価指標後の下落から反発した形ですが、記事時点の参考値で終値ではありません。",
+              "outlook": "【推測】ドル安と米金利低下は、ドル建て金の割高感と保有の機会費用を和らげる上向き材料です。ただし物価高が再び利上げ観測を強めれば反発の支えが弱まるため、議長発言後のドル・金利の反転に注意が必要です。",
+              "sourceName": "Reuters（MarketScreener掲載）",
+              "sourceUrl": "https://ca.marketscreener.com/news/global-stocks-flat-as-ai-and-rate-fears-hit-tech-ce785dd3d18afe24",
+              "publishedAtUtc": "2026-10-15T20:04:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-15T20:45:06.594Z"
+            },
+            {
+              "id": "september-ppi-accelerates",
+              "title": "米9月PPI、前月比1.3%・前年比6.3%上昇",
+              "fact": "BLSが15日08:30 EDT（21:30 JST）に初回公表した9月最終需要PPIは、前月比1.3%（季節調整済み）、前年比6.3%（季節調整前）上昇。食品・エネルギー・商業サービスを除く指数も同0.5%、5.0%上昇しました。8月の総合前月比は今回掲載の改定値で0.5%です。",
+              "outlook": "【推測】エネルギー以外にも物価上昇が及ぶことは、引き締め長期化を通じて金の上値を抑える材料です。一方、今回の市場では長期金利が低下しており、物価の強さだけから金の下落を断定せず、今後の政策発言で金利が持ち直すかが分岐点です。",
+              "sourceName": "BLS",
+              "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+              "publishedAtUtc": "2026-10-15T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-15T20:43:39.990Z"
+            },
+            {
+              "id": "treasury-yen-snapshot",
+              "title": "米10年金利は低下、ドル円158円台",
+              "fact": "同じReutersの15日16:04 EDT時点の記事では、米10年債利回りは10.29bp低下の5.087%、ドル円は0.09%安の158.15円でした。ドルは18カ月ぶり高値から後退。いずれも記事時点の参考値で、金と同時刻の約定値を示すものではありません。",
+              "outlook": "【推測】米長期金利低下が続けば金の支えになりますが、AI関連株への不安に伴う債券需要が一巡すれば、その効果が薄れる可能性があります。円高は円換算の金価格には逆風となり得るため、ドル建て金の反発と円建ての値動きは分けて見る必要があります。",
+              "sourceName": "Reuters（MarketScreener掲載）",
+              "sourceUrl": "https://ca.marketscreener.com/news/global-stocks-flat-as-ai-and-rate-fears-hit-tech-ce785dd3d18afe24",
+              "publishedAtUtc": "2026-10-15T20:04:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-15T20:45:06.594Z"
+            },
+            {
+              "id": "oil-diverges-stock-draw",
+              "title": "WTIは3%高、ブレントは小幅安",
+              "fact": "15日の原油先物清算値は、WTIが1バレル97.97ドル（3.03%高）、ブレントが105.92ドル（0.13%安）でした。Reutersは米原油在庫の大幅減少をWTIの支援材料とする一方、制裁緩和の検討と中東の供給リスクが交錯したと報道しています。",
+              "outlook": "【推測】WTI上昇は燃料価格を通じた物価圧力への警戒を残し、金利が上がれば金には逆風です。供給不安は金の安全資産需要を支える面もありますが、原油全体が一方向に上昇している状況ではなく、今後の供給対策とドルの反応が重要です。",
+              "sourceName": "Reuters（MarketScreener掲載）",
+              "sourceUrl": "https://ca.marketscreener.com/news/oil-prices-fall-as-investors-weigh-supply-outlook-middle-east-tensions-ce785dd3d98bfe25",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-15",
+              "retrievedAtUtc": "2026-10-15T20:45:49.000Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "ウォーシュFRB議長・IMF専務理事の対談",
+              "scheduledAtUtc": "2026-10-16T03:30:00.000Z",
+              "sourceName": "Federal Reserve",
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+              "retrievedAtUtc": "2026-10-15T20:46:24.841Z",
+              "unit": "発言",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米9月輸出入物価指数",
+              "scheduledAtUtc": "2026-10-16T12:30:00.000Z",
+              "sourceName": "BLS",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
+              "retrievedAtUtc": "2026-10-15T20:46:24.841Z",
+              "unit": "%",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米鉱工業生産・設備稼働率",
+              "scheduledAtUtc": "2026-10-16T13:15:00.000Z",
+              "sourceName": "Federal Reserve",
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+              "retrievedAtUtc": "2026-10-15T20:46:24.841Z",
+              "unit": "%",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "%",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "85dbb033ac80320eb32ac1b42c2c42b5fa7b39ea43abc5dec8347b28fa3e12f9",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
