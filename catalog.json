@@ -1,9 +1,210 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-15T20:48:46.547Z",
+  "builtAtUtc": "2026-10-16T21:04:32.305Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "1f4a07142c42565526d11fa44df73e073d1c7d78e6410c6e192c13f0d8bc1fc4",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-16T21:04:32.304Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:dollar-yields-diverge",
+            "sourceUrl": "https://www.marketscreener.com/news/stocks-slip-as-dollar-heads-for-weekly-loss-ce785cdadf88f126",
+            "retrievedAtUtc": "2026-10-16T20:43:32.000Z",
+            "verification": "reviewed",
+            "note": "16日の記事本文で金・ドル・米金利の報道値を確認。終値とは区別。"
+          },
+          {
+            "subjectId": "material:oil-geopolitical-risk",
+            "sourceUrl": "https://www.marketscreener.com/news/stocks-slip-as-dollar-heads-for-weekly-loss-ce785cdadf88f126",
+            "retrievedAtUtc": "2026-10-16T20:43:32.000Z",
+            "verification": "reviewed",
+            "note": "16日のBrent先物清算値と騰落率を記事本文で確認。"
+          },
+          {
+            "subjectId": "material:import-inflation-broadens",
+            "sourceUrl": "https://www.bls.gov/news.release/ximpim.htm",
+            "retrievedAtUtc": "2026-10-16T20:43:29.071Z",
+            "verification": "reviewed",
+            "note": "9月輸入物価の初回公表値、8月改定値、季節調整の扱いを確認。"
+          },
+          {
+            "subjectId": "material:industrial-output-rises",
+            "sourceUrl": "https://www.federalreserve.gov/releases/g17/current/default.htm",
+            "retrievedAtUtc": "2026-10-16T20:42:14.171Z",
+            "verification": "reviewed",
+            "note": "9月速報値、8月の前回値と改定値、季節調整済みを確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+            "retrievedAtUtc": "2026-10-16T20:42:40.095Z",
+            "verification": "reviewed",
+            "note": "公式カレンダーの20日08:30米東部時間をUTCへ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+            "retrievedAtUtc": "2026-10-16T20:42:14.171Z",
+            "verification": "reviewed",
+            "note": "公式カレンダーの28日14:00米東部時間をUTCへ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-17-r1",
+          "dateJst": "2026-10-17",
+          "generatedAtUtc": "2026-10-16T21:04:32.303Z",
+          "period": {
+            "startUtc": "2026-10-16T00:00:00.000Z",
+            "endUtc": "2026-10-16T20:46:00.000Z"
+          },
+          "conclusion": [
+            "16日の金市場では、ドル指数の下落による支えと、米長期金利・原油の上昇への警戒が併存しています。",
+            "週末の中東情勢を見極めつつ、次は20日21:30 JSTの米住宅着工・建築許可と29日03:00 JSTのFOMC声明に向け、ドル安が続くか、金利上昇が勝るかが焦点です。"
+          ],
+          "materials": [
+            {
+              "id": "dollar-yields-diverge",
+              "title": "金は小幅高、ドル安と金利上昇が交錯",
+              "fact": "16日19:37 UTC（17日04:37 JST）配信のReuters記事は、金を1オンス4,159.69ドル（0.25%高）、ドル円を158.05円と報じました。ドル指数は0.21%下落する一方、米10年債利回りは日中の低下から反転し、2.13bp高い5.108%。金・為替・金利は16日の取材時点の参考値で、終値ではありません。",
+              "outlook": "【推測】ドル安が続けば、他通貨で見た金の割高感が和らぎ金を支えやすくなります。ただし米金利上昇が続くと利息を生まない金の保有負担が相対的に増すため、ドル安だけで金上昇が続くとは判断できません。",
+              "sourceName": "Reuters / MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/stocks-slip-as-dollar-heads-for-weekly-loss-ce785cdadf88f126",
+              "publishedAtUtc": "2026-10-16T19:37:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-16T20:43:32.000Z"
+            },
+            {
+              "id": "oil-geopolitical-risk",
+              "title": "Brent清算値は3.72%上昇",
+              "fact": "16日のBrent原油先物は、中東の供給不安を背景に3.72%上昇し、1バレル109.86ドルで清算しました。これは16日の清算値で、週末のライブ価格ではありません。",
+              "outlook": "【推測】中東の供給不安が強まれば、金には安全資産需要による支えが期待されます。一方、原油高が物価上昇と金融引き締め観測を強める場合にはドル・金利を通じて金の逆風にもなり、週明けの反応を分ける要因です。",
+              "sourceName": "Reuters / MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/stocks-slip-as-dollar-heads-for-weekly-loss-ce785cdadf88f126",
+              "publishedAtUtc": "2026-10-16T19:37:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-16T20:43:32.000Z"
+            },
+            {
+              "id": "import-inflation-broadens",
+              "title": "米輸入物価は前年比8.1%上昇",
+              "fact": "BLSが16日08:30 EDT（21:30 JST）に初回公表した9月輸入物価は、前月比1.1%、前年比8.1%上昇しました。燃料を除いても前月比0.7%上昇。8月の総合前月比は改定値で0.5%で、これらは季節調整前の数値です。",
+              "outlook": "【推測】燃料以外にも輸入物価上昇が広がることは、引き締め継続とドル・金利上昇を通じて金の重荷になり得ます。一方、物価上昇が消費や企業収益を圧迫し債券需要を強める場合には金利低下が金を支えるため、週明けの長期金利の反応が分岐点です。",
+              "sourceName": "BLS",
+              "sourceUrl": "https://www.bls.gov/news.release/ximpim.htm",
+              "publishedAtUtc": "2026-10-16T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-16T20:43:29.071Z"
+            },
+            {
+              "id": "industrial-output-rises",
+              "title": "米鉱工業生産は0.7%増、製造業は0.3%増",
+              "fact": "FRBが16日09:15 EDT（22:15 JST）に公表した9月鉱工業生産の速報値は、前月比0.7%増（季節調整済み）。製造業は0.3%増、公益事業は3.5%増、設備稼働率は76.9%でした。8月の総合前月比は前回の0.0%から0.1%増へ改定されました。",
+              "outlook": "【推測】生産の底堅さは早期の金融緩和期待を抑え、金の上値を重くする可能性があります。ただし総合の伸びには公益事業の増加も含まれ、製造業の加速と同一視せず、今後の需要指標が強さを裏付けるかが重要です。",
+              "sourceName": "Federal Reserve",
+              "sourceUrl": "https://www.federalreserve.gov/releases/g17/current/default.htm",
+              "publishedAtUtc": "2026-10-16T13:15:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-16T20:42:14.171Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米9月住宅着工・建築許可",
+              "scheduledAtUtc": "2026-10-20T12:30:00.000Z",
+              "sourceName": "Federal Reserve Bank of New York",
+              "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+              "retrievedAtUtc": "2026-10-16T20:42:40.095Z",
+              "unit": "件数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "FOMC政策決定",
+              "scheduledAtUtc": "2026-10-28T18:00:00.000Z",
+              "sourceName": "Federal Reserve",
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+              "retrievedAtUtc": "2026-10-16T20:42:14.171Z",
+              "unit": "政策金利",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "%",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "d0410a7bbc8089d9c85afa211b702c717c26c218ceab4365d992e19d34cb1cb7",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
