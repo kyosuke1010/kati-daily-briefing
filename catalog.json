@@ -1,9 +1,211 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-17T20:50:12.190Z",
+  "builtAtUtc": "2026-10-18T20:50:11.505Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "093a5918d78fe05d8b10fa760dbd2e8f161698abe446adde132ca8e34d8160c0",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-18T20:50:11.504Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:hormuz-weekend",
+            "sourceUrl": "https://www.marketscreener.com/news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-ce785cdad18bf126",
+            "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+            "verification": "reviewed",
+            "note": "18日の外相発言と条件付き提案を本文で確認。合意成立とは扱わない。"
+          },
+          {
+            "subjectId": "material:friday-market-reference",
+            "sourceUrl": "https://www.marketscreener.com/news/stocks-slip-as-dollar-heads-for-weekly-loss-ce785cdadf88f126",
+            "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+            "verification": "reviewed",
+            "note": "16日更新本文で報道時点の参考値と原油清算値を区別して確認。"
+          },
+          {
+            "subjectId": "material:china-data-next",
+            "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html",
+            "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+            "verification": "reviewed",
+            "note": "公式日程の19日10時と四半期発表区分を確認。中国時間からJSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html",
+            "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+            "verification": "reviewed",
+            "note": "公式日程の中国時間10時をUTC02時・JST11時に換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+            "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+            "verification": "reviewed",
+            "note": "公式日程の東部時間08時30分をUTC12時30分・JST21時30分に換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+            "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+            "verification": "reviewed",
+            "note": "公式日程の東部時間08時30分をUTC12時30分・JST21時30分に換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-19-r1",
+          "dateJst": "2026-10-19",
+          "generatedAtUtc": "2026-10-18T20:50:11.500Z",
+          "period": {
+            "startUtc": "2026-10-16T00:00:00.000Z",
+            "endUtc": "2026-10-18T20:50:09.937Z"
+          },
+          "conclusion": [
+            "週明けの金はドル安・金利低下の継続が支えになる一方、ホルムズ海峡の緊張緩和が進めば安全資産需要の後退が重荷になり得ます。",
+            "再開提案を合意と混同せず、まず原油・ドル・米金利の初動と、本日11時JSTの中国経済発表、その後20日の米住宅指標を確認します。"
+          ],
+          "materials": [
+            {
+              "id": "hormuz-weekend",
+              "title": "ホルムズ再開提案、合意は未確認",
+              "fact": "18日のReuters報道によると、イラン外相は、米国へのホルムズ海峡再開提案が引き続き有効だと表明しました。米国が条件を受け入れれば6日以内に再開し、翌日に協議を再開できるとの説明です。条件付きの提案であり、再開合意や実際の通航回復を示す発表ではありません。",
+              "outlook": "【推測】緊張緩和が実現すれば安全資産としての金需要が弱まり、金には下押し要因となり得ます。一方で原油安によるインフレ・金利圧力の低下は金を支え得るため、週明けは原油と米金利が同時に下がるかが重要です。",
+              "sourceName": "Reuters / MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-ce785cdad18bf126",
+              "publishedAtUtc": "2026-10-18T10:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-18T20:50:09.937Z"
+            },
+            {
+              "id": "friday-market-reference",
+              "title": "週明け前の基準はドル安と原油高",
+              "fact": "最新営業日16日のReuters記事（20:51 UTC更新）では、金は1オンス4,167.14ドル、0.07%高、ドル指数は0.26%安、ドル円は157.98円。米10年債利回りは5.085%で、週間では金利が低下しました。Brent先物は3.72%高の109.86ドルで清算。いずれも19日の現在値ではなく、金・為替・金利は報道時点の参考値です。",
+              "outlook": "【推測】ドル安と金利低下が続くなら、金の保有コストと他通貨での購入負担が和らぎ支えになります。原油高が再燃して金利やドルが反発する場合は、金の上値を抑える可能性があります。",
+              "sourceName": "Reuters / MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/stocks-slip-as-dollar-heads-for-weekly-loss-ce785cdadf88f126",
+              "publishedAtUtc": "2026-10-16T20:51:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-18T20:50:09.937Z"
+            },
+            {
+              "id": "china-data-next",
+              "title": "本日11時、中国の四半期経済発表",
+              "fact": "中国国家統計局の2026年公表日程では、19日10:00中国時間（11:00 JST）に四半期の国民経済運行情況と、鉱工業生産・小売売上高などを発表予定です。日程は変更される場合があり、本稿締切時点では結果は未発表です。",
+              "outlook": "【推測】景気の弱さが意識されれば安全資産需要が金を支え得る一方、実需の鈍化懸念も生じるため、金への方向は一義的ではありません。発表後に人民元安・ドル高が強まるか、原油と金利が下がるかを合わせて見る必要があります。",
+              "sourceName": "中国国家統計局",
+              "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html",
+              "publishedAtUtc": null,
+              "publishedDate": "2025-12-26",
+              "retrievedAtUtc": "2026-10-18T20:50:09.937Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "中国・四半期国民経済運行情況（第3四半期）",
+              "scheduledAtUtc": "2026-10-19T02:00:00.000Z",
+              "sourceName": "中国国家統計局",
+              "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html",
+              "unit": "経済統計",
+              "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米住宅着工・建築許可",
+              "scheduledAtUtc": "2026-10-20T12:30:00.000Z",
+              "sourceName": "Federal Reserve Bank of New York",
+              "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+              "unit": "件数",
+              "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米新規失業保険申請件数",
+              "scheduledAtUtc": "2026-10-22T12:30:00.000Z",
+              "sourceName": "Federal Reserve Bank of New York",
+              "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+              "unit": "件",
+              "retrievedAtUtc": "2026-10-18T20:50:09.937Z",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "%",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "8817f15c8488bfc6ca60ca82dd5ed2f7d843d81d8f32b651240004ffaf2fd4b0",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
