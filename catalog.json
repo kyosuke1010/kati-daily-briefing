@@ -1,9 +1,228 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-19T20:44:11.467Z",
+  "builtAtUtc": "2026-10-20T20:51:49.659Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "3ba8e8d1de376e177e43ea435f5ff51339a4abd2721fbf0fc62080fe41df2236",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-20T20:51:49.658Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-fed-outlook",
+            "sourceUrl": "https://www.kitco.com/news/off-the-wire/2026-10-20/gold-edges-lower-investors-weigh-fed-rate-signals",
+            "retrievedAtUtc": "2026-10-20T20:48:25.000Z",
+            "verification": "reviewed",
+            "note": "報道本文の対象日・数値・価格の種類を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:dollar-yen",
+            "sourceUrl": "https://uk.marketscreener.com/news/dollar-dips-as-traders-weigh-iran-ai-risks-ce785cd8dd8df020",
+            "retrievedAtUtc": "2026-10-20T20:48:25.000Z",
+            "verification": "reviewed",
+            "note": "報道本文の対象日・数値・価格の種類を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:treasury-long-short",
+            "sourceUrl": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html",
+            "retrievedAtUtc": "2026-10-20T20:48:35.000Z",
+            "verification": "reviewed",
+            "note": "報道本文の対象日・数値・価格の種類を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:oil-mediation",
+            "sourceUrl": "https://au.investing.com/news/commodities-news/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks-4699865",
+            "retrievedAtUtc": "2026-10-20T20:48:11.000Z",
+            "verification": "reviewed",
+            "note": "報道本文の対象日・数値・価格の種類を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:us-housing-starts",
+            "sourceUrl": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+            "retrievedAtUtc": "2026-10-20T20:49:30.807Z",
+            "verification": "reviewed",
+            "note": "公式初報の年率・前月改定値・90%信頼区間と発表時刻を確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+            "retrievedAtUtc": "2026-10-20T20:46:35.908Z",
+            "verification": "reviewed",
+            "note": "公式の水曜10:30米東部時間を10月21日14:30 UTC・23:30 JSTに換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+            "retrievedAtUtc": "2026-10-20T20:48:00.830Z",
+            "verification": "reviewed",
+            "note": "公式の10月22日08:30米東部時間を12:30 UTC・21:30 JSTに換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-21-r1",
+          "dateJst": "2026-10-21",
+          "generatedAtUtc": "2026-10-20T20:51:49.657Z",
+          "period": {
+            "startUtc": "2026-10-20T00:00:00.000Z",
+            "endUtc": "2026-10-20T20:50:59.593Z"
+          },
+          "conclusion": [
+            "金は20日の米午後に小幅安となり、追加利上げへの警戒が上値を抑える一方、ドル安と米長期金利の低下は支えになり得ます。",
+            "次の焦点は本日21日23:30 JSTの米週間石油統計と22日21:30 JSTの失業保険申請で、原油安と需要減速が金利低下につながるかを見極めます。"
+          ],
+          "materials": [
+            {
+              "id": "gold-fed-outlook",
+              "title": "金は米午後も小幅安、12月限は0.4%安で清算",
+              "fact": "20日のReuters報道によると、金現物は18:05 UTC（21日03:05 JST）時点で1トロイオンス4,125.90ドル、0.3%安でした。米金先物12月限の清算値は4,142.60ドルで0.4%安。現物の報道時点の価格と先物清算値は別の指標です。",
+              "outlook": "【推測】追加利上げへの警戒が残る間は、利息を生まない金の保有コストが意識され、上値が抑えられやすくなります。ドル安や長期金利の低下が続けばその圧力は和らぎますが、金が実際に上昇へ転じるかを確かめる必要があります。",
+              "sourceName": "Reuters / Kitco",
+              "sourceUrl": "https://www.kitco.com/news/off-the-wire/2026-10-20/gold-edges-lower-investors-weigh-fed-rate-signals",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-20",
+              "retrievedAtUtc": "2026-10-20T20:48:25.000Z"
+            },
+            {
+              "id": "dollar-yen",
+              "title": "ドルは軟化、円は158円台前半",
+              "fact": "20日18:47 UTC配信のReuters記事では、ドル指数は0.25%安の101.71、ドル円は1ドル158.14円で、円は0.21%上昇しました。記事は原油と米長期金利の低下に沿ったドル安を報告しており、数値は配信記事の記載値で終値ではありません。",
+              "outlook": "【推測】ドル安が続けば他通貨から見た金の購入負担が軽くなり、ドル建て金には上向きの材料です。一方、円高は円換算した金価格を押し下げるため、日本の読者にはドル建てと円建てで方向が異なる可能性があります。",
+              "sourceName": "Reuters / MarketScreener",
+              "sourceUrl": "https://uk.marketscreener.com/news/dollar-dips-as-traders-weigh-iran-ai-risks-ce785cd8dd8df020",
+              "publishedAtUtc": "2026-10-20T18:47:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-20T20:48:25.000Z"
+            },
+            {
+              "id": "treasury-long-short",
+              "title": "米10年金利は低下、ただし日中安値から戻す",
+              "fact": "20日18:45 UTC掲載のReuters記事では、米10年債利回りは前日比1.5bp低い5.121%でしたが、日中安値の5.073%からは上昇しました。2年債は3bp上昇して4.791%と、長短の方向は一致していません。記事は株高とともに長期金利が安値から戻したと報じています。",
+              "outlook": "【推測】長期金利の低下は金の相対的な保有コストを下げ、支援材料になります。ただし短期金利が上がり長期金利も下げ幅を縮めているため、金融緩和期待による持続的な金高と判断するには、ドルと金利の低下が続くことが条件です。",
+              "sourceName": "Reuters / Mint",
+              "sourceUrl": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html",
+              "publishedAtUtc": "2026-10-20T18:45:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-20T20:48:35.000Z"
+            },
+            {
+              "id": "oil-mediation",
+              "title": "原油は反落、仲介協議の報道と供給不安が交錯",
+              "fact": "20日のReuters報道では、Brent先物は一時1バレル111.99ドルまで上げた後、0.69%安の108.79ドルで清算しました。活発に取引されたWTI12月限は0.72ドル安の97.82ドルで清算。イラン大統領とパキスタン軍トップの仲介協議が報じられましたが、停戦合意成立を示すものではありません。",
+              "outlook": "【推測】原油の反落が続けば物価上昇と追加利上げへの警戒を和らげ、金を金利面から支え得ます。一方、緊張緩和は安全資産需要を弱める可能性もあり、供給不安が再燃した場合は原油高に伴う金利上昇と逃避買いのどちらが強いかが焦点です。",
+              "sourceName": "Reuters / Investing.com",
+              "sourceUrl": "https://au.investing.com/news/commodities-news/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks-4699865",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-20",
+              "retrievedAtUtc": "2026-10-20T20:48:11.000Z"
+            },
+            {
+              "id": "us-housing-starts",
+              "title": "米9月住宅着工は年率122.1万戸、前月推計も改定",
+              "fact": "20日の米国勢調査局の初報で、9月の住宅着工は季節調整済み年率122.1万戸、改定後の8月128.8万戸から5.2%減となりました。ただし前月比の誤差幅は±11.8ポイントで、増減方向は統計的に確定できません。建築許可は年率140.0万戸、改定後の8月140.3万戸から0.2%減でした。",
+              "outlook": "【推測】住宅需要の弱さが長引き、米金利やドルの低下を促すなら金には上向きの材料です。着工の月次変動には大きな誤差があるため、今後の雇用指標でも減速が裏付けられるかが支援の持続性を左右します。",
+              "sourceName": "U.S. Census Bureau",
+              "sourceUrl": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+              "publishedAtUtc": "2026-10-20T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-20T20:49:30.807Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米EIA週間石油統計",
+              "scheduledAtUtc": "2026-10-21T14:30:00.000Z",
+              "sourceName": "U.S. Energy Information Administration",
+              "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+              "retrievedAtUtc": "2026-10-20T20:46:35.908Z",
+              "unit": "バレル",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米新規失業保険申請件数",
+              "scheduledAtUtc": "2026-10-22T12:30:00.000Z",
+              "sourceName": "Federal Reserve Bank of New York",
+              "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+              "retrievedAtUtc": "2026-10-20T20:48:00.830Z",
+              "unit": "件数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "%",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "279a5b48f999cfa3f60980117d9b0e7dccd55c7e9892502e727ef72fa6401c1c",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
