@@ -1,9 +1,210 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-20T20:51:49.659Z",
+  "builtAtUtc": "2026-10-21T20:43:47.678Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "feb0679580ee73b6b6511709611c4d1feca522db22bd13a0cb7044ac53394d06",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-21T20:43:47.675Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-yield-rebound",
+            "sourceUrl": "https://in.marketscreener.com/news/gold-edges-higher-as-yields-retreat-fed-decision-in-focus-ce785cd9dd8bf623",
+            "retrievedAtUtc": "2026-10-21T20:41:46.505Z",
+            "verification": "reviewed",
+            "note": "報道本文の対象日・数値・取引時点を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:dollar-mixed-yen",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/dollar-mixed-traders-wait-fed-aussie-gains",
+            "retrievedAtUtc": "2026-10-21T20:42:23.030Z",
+            "verification": "reviewed",
+            "note": "報道本文の対象日・数値・取引時点を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:oil-geopolitics",
+            "sourceUrl": "https://gvwire.com/2026/10/21/oil-prices-steady-as-investors-weigh-progress-on-russia-ukraine-talks-against-falling-us-oil-stocks/",
+            "retrievedAtUtc": "2026-10-21T20:42:23.030Z",
+            "verification": "reviewed",
+            "note": "報道本文の対象日・数値・取引時点を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:eia-stocks",
+            "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_21/pdf/table1.pdf",
+            "retrievedAtUtc": "2026-10-21T20:41:59.000Z",
+            "verification": "reviewed",
+            "note": "公式当週表の対象週・SPR除外・単位と在庫増減を確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+            "retrievedAtUtc": "2026-10-21T20:41:59.000Z",
+            "verification": "reviewed",
+            "note": "公式予定の10月22日08:30米東部時間を12:30 UTC・21:30 JSTに換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.sca.isr.umich.edu/",
+            "retrievedAtUtc": "2026-10-21T20:42:23.167Z",
+            "verification": "reviewed",
+            "note": "発表主体の10月23日10:00米東部時間、10月確報の予定を確認。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-22-r1",
+          "dateJst": "2026-10-22",
+          "generatedAtUtc": "2026-10-21T20:43:47.665Z",
+          "period": {
+            "startUtc": "2026-10-21T00:00:00.000Z",
+            "endUtc": "2026-10-21T20:43:44.630Z"
+          },
+          "conclusion": [
+            "金は21日の米午後に反発し、米長期金利の低下が支えとなりましたが、原油高に伴う物価・追加利上げへの警戒は上値を抑える材料です。",
+            "次の焦点は本日22日21:30 JSTの米新規失業保険申請で、雇用の減速がドル・金利低下につながるか、原油の再上昇がそれを打ち消すかに注目します。"
+          ],
+          "materials": [
+            {
+              "id": "gold-yield-rebound",
+              "title": "金は日中安値から反発、米10年金利は続落",
+              "fact": "21日のReuters報道では、金現物は18:12 UTC（22日03:12 JST）時点で1トロイオンス4,137.94ドル、0.3%高でした。米金先物12月限は0.2%高の4,150ドルで清算。米10年債利回りは2営業日連続で低下し、金は取引序盤につけた約1週間ぶりの安値から戻しました。",
+              "outlook": "【推測】長期金利の低下が続けば、利息を生まない金を保有する相対的な負担が軽くなり、反発を支えます。一方、原油高から追加利上げ観測が強まり金利が戻る場合は、その支えが弱くなるため、今夜の雇用指標後の金利反応が重要です。",
+              "sourceName": "Reuters / MarketScreener",
+              "sourceUrl": "https://in.marketscreener.com/news/gold-edges-higher-as-yields-retreat-fed-decision-in-focus-ce785cd9dd8bf623",
+              "publishedAtUtc": "2026-10-21T18:28:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-21T20:41:46.505Z"
+            },
+            {
+              "id": "dollar-mixed-yen",
+              "title": "ドルは方向感に欠け、円は小幅高",
+              "fact": "21日のニューヨーク市場を扱うReuters記事では、ドル指数は0.03%安の101.76、ドル円は1ドル158.04円で円は0.08%高でした。ユーロは対ドルで0.11%安、豪ドルは0.24%高と主要通貨の方向は分かれました。いずれも記事記載の取引中の値で、終値ではありません。",
+              "outlook": "【推測】ドルが広く下落する展開ならドル建て金に追い風ですが、この時点の通貨別の動きだけでは強い支援材料とは言えません。円高が進む場合は円換算の金価格を押し下げるため、ドル建て金の反発と日本円での値動きは分けて見る必要があります。",
+              "sourceName": "Reuters / Euronext",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/dollar-mixed-traders-wait-fed-aussie-gains",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-21",
+              "retrievedAtUtc": "2026-10-21T20:42:23.030Z"
+            },
+            {
+              "id": "oil-geopolitics",
+              "title": "原油は序盤の上昇を縮小、外交と供給不安が綱引き",
+              "fact": "21日14:50 UTC（23:50 JST）のReuters報道値は、Brent先物が1バレル109.04ドルで0.2%高、WTI先物が97.72ドルで0.1%安でした。両指標はそれ以前に最大約2ドル上昇していましたが、ロシア・ウクライナ協議の進展期待と米原油在庫減少、中東の供給不安が交錯しました。協議期待は停戦成立を意味しません。",
+              "outlook": "【推測】原油の上昇が抑えられればインフレと利上げへの警戒が和らぎ、金には金利面から支援となり得ます。ただし外交の進展は安全資産需要を弱める方向にも働くため、金への最終的な影響はドル・米金利と実際の供給改善を伴うかで変わります。",
+              "sourceName": "Reuters / GV Wire",
+              "sourceUrl": "https://gvwire.com/2026/10/21/oil-prices-steady-as-investors-weigh-progress-on-russia-ukraine-talks-against-falling-us-oil-stocks/",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-21",
+              "retrievedAtUtc": "2026-10-21T20:42:23.030Z"
+            },
+            {
+              "id": "eia-stocks",
+              "title": "米原油・ガソリン在庫は減少、留出油は増加",
+              "fact": "EIAが21日に公表した10月16日終了週の米商業原油在庫は、戦略備蓄を除き前週比310万バレル減の4億1250万バレルでした。ガソリン在庫も300万バレル減った一方、軽油・暖房油を含む留出油在庫は170万バレル増加しました。数値は当週公表表の百万バレル単位を換算しています。",
+              "outlook": "【推測】原油・ガソリン在庫の減少が燃料価格を押し上げれば、物価と追加利上げへの警戒を通じて金の重荷になります。ただし留出油は増加しており、石油製品全体の逼迫を一括りにはできず、原油高が米金利の上昇まで波及するかが条件です。",
+              "sourceName": "U.S. Energy Information Administration",
+              "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_10_21/pdf/table1.pdf",
+              "publishedAtUtc": "2026-10-21T14:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-21T20:41:59.000Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米新規失業保険申請件数",
+              "scheduledAtUtc": "2026-10-22T12:30:00.000Z",
+              "sourceName": "Federal Reserve Bank of New York",
+              "sourceUrl": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+              "retrievedAtUtc": "2026-10-21T20:41:59.000Z",
+              "unit": "件数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米ミシガン大学10月消費者態度指数（確報）",
+              "scheduledAtUtc": "2026-10-23T14:00:00.000Z",
+              "sourceName": "University of Michigan",
+              "sourceUrl": "https://www.sca.isr.umich.edu/",
+              "retrievedAtUtc": "2026-10-21T20:42:23.167Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "%",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "3ba8e8d1de376e177e43ea435f5ff51339a4abd2721fbf0fc62080fe41df2236",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
