@@ -1,9 +1,247 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-21T20:43:47.678Z",
+  "builtAtUtc": "2026-10-22T20:55:57.950Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "9c2a9c148e1169cc9261552b3b438fe34e59939b4a1e7ff7383c2c169c7a44f1",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-22T20:55:57.949Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-rate-pressure",
+            "sourceUrl": "https://www.marketscreener.com/news/tsx-falls-from-four-week-peak-as-miners-tech-stocks-weigh-ce785cdeda8df52d",
+            "retrievedAtUtc": "2026-10-22T20:53:09.791Z",
+            "verification": "reviewed",
+            "note": "当日報道の対象日と数値・時点を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:oil-supply-risk",
+            "sourceUrl": "https://www.aol.ca/articles/oil-rises-us-orders-diplomats-003606000.html",
+            "retrievedAtUtc": "2026-10-22T20:51:14.311Z",
+            "verification": "reviewed",
+            "note": "当日報道の対象日と数値・時点を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:yen-dollar-divergence",
+            "sourceUrl": "https://wiky.com/2026/10/21/dip-in-the-dollar-takes-a-breather-with-fed-in-focus/",
+            "retrievedAtUtc": "2026-10-22T20:53:49.189Z",
+            "verification": "reviewed",
+            "note": "当日報道の対象日と数値・時点を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "material:claims-initial-revision",
+            "sourceUrl": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261613.pdf",
+            "retrievedAtUtc": "2026-10-22T20:52:05.891Z",
+            "verification": "reviewed",
+            "note": "公式本文の対象週、季節調整、速報と前週改定を確認。"
+          },
+          {
+            "subjectId": "material:treasury-risk-aversion",
+            "sourceUrl": "https://apnews.com/article/1970e79d013cbddcae89c53b4b98f384",
+            "retrievedAtUtc": "2026-10-22T20:53:49.189Z",
+            "verification": "reviewed",
+            "note": "当日報道の対象日と数値・時点を確認し、事実と条件付きの見方を区別。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.stat.go.jp/data/kouhyou/e-stat_cpi.xml",
+            "retrievedAtUtc": "2026-10-22T20:53:34.277Z",
+            "verification": "reviewed",
+            "note": "公式予定の全国9月分、10月23日08:30 JSTを22日23:30 UTCへ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+            "retrievedAtUtc": "2026-10-22T20:52:46.536Z",
+            "verification": "reviewed",
+            "note": "公式年間日程の10月23日13:45 UTCを22:45 JSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.sca.isr.umich.edu/",
+            "retrievedAtUtc": "2026-10-22T20:51:17.128Z",
+            "verification": "reviewed",
+            "note": "発表主体の10月23日10:00米東部時間を14:00 UTC・23:00 JSTへ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-23-r1",
+          "dateJst": "2026-10-23",
+          "generatedAtUtc": "2026-10-22T20:55:57.946Z",
+          "period": {
+            "startUtc": "2026-10-22T00:00:00.000Z",
+            "endUtc": "2026-10-22T20:54:59.071Z"
+          },
+          "conclusion": [
+            "22日の金は米午前に下落し、原油高による物価・金利高止まり懸念が重荷となる一方、米債利回り低下とドル安は下支えになり得る。",
+            "次の焦点は今日08:30 JSTの日本CPI、22:45の米PMI速報、23:00のミシガン大学確報で、物価懸念と景気不安のどちらが金利を動かすか、円建て金では円高の影響にも注目したい。"
+          ],
+          "materials": [
+            {
+              "id": "gold-rate-pressure",
+              "title": "金は米午前に2％超下落、金利高止まりが重荷",
+              "fact": "10月22日米東部10:36のReuters報道は、米金利の高止まり観測を背景に金価格が2％超下落したと伝えた。米午前の状況であり、NY終値ではない。",
+              "outlook": "【推測】金利が高い状態が続く見方は、利息を生まない金の保有コストを高め、下押し材料になる。一方、米債利回り低下が続けば重荷は軽くなるため、原油高が再び金利上昇につながるかが分岐点となる。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/tsx-falls-from-four-week-peak-as-miners-tech-stocks-weigh-ce785cdeda8df52d",
+              "publishedAtUtc": "2026-10-22T14:36:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-22T20:53:09.791Z"
+            },
+            {
+              "id": "oil-supply-risk",
+              "title": "サウジへの攻撃で原油上昇、物価懸念が再燃",
+              "fact": "Reutersによると、フーシ派によるサウジアラビアへの攻撃で供給不安が強まった。22日13:05米東部時間（23日02:05 JST）の取引中、ブレント先物は3.2％高の112.33ドル、WTI先物は2.2％高の99.29ドル／バレルだった。",
+              "outlook": "【推測】原油高が長引けば物価と政策金利の上振れ懸念が増し、金には下押し圧力がかかりやすい。ただし、供給途絶や紛争拡大への不安が安全資産需要を強める場合は金の支えにもなり、原油と米金利が同時に上がるかを見たい。",
+              "sourceName": "Reuters／AOL",
+              "sourceUrl": "https://www.aol.ca/articles/oil-rises-us-orders-diplomats-003606000.html",
+              "publishedAtUtc": "2026-10-22T17:23:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-22T20:51:14.311Z"
+            },
+            {
+              "id": "yen-dollar-divergence",
+              "title": "円が上昇、ドル安でも円建て金には別の圧力",
+              "fact": "10月22日ロンドン発Reuters報道では円が対ドル・ユーロ・ポンドなどで上昇し、ドル／円は記事時点で0.6％安の157.27円だった。米債への資金流入による利回り低下も報じられたが、この為替値は終値ではなく、詳細な観測時刻は示されていない。",
+              "outlook": "【推測】ドル安と米金利低下が続けば、ドル建て金には下支えとなる。一方、円高は同じドル建て金価格を円換算した際の値を押し下げるため、今日の日本CPI後は金そのものとドル／円の反応を分けて見る必要がある。",
+              "sourceName": "Reuters／WIKY",
+              "sourceUrl": "https://wiky.com/2026/10/21/dip-in-the-dollar-takes-a-breather-with-fed-in-focus/",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-22",
+              "retrievedAtUtc": "2026-10-22T20:53:49.189Z"
+            },
+            {
+              "id": "claims-initial-revision",
+              "title": "米新規失業保険申請は19.4万件、前週は上方改定",
+              "fact": "米労働省が22日08:30米東部時間に公表した10月17日終了週の新規失業保険申請は、季節調整済み速報で19.4万件、前週改定値より0.6万件減少。前週は19.9万件から20.0万件へ上方改定された一方、10月10日終了週の継続受給者数は172.8万人と前週改定値から2.5万人増えた。",
+              "outlook": "【推測】新規申請の減少は解雇の急増を示さず、金融緩和を急ぐ根拠を弱める点で金には逆風となり得る。ただし継続受給者は増えており、再就職の難しさが今後の雇用指標にも表れるなら、金利低下を通じて金を支える余地がある。",
+              "sourceName": "米労働省",
+              "sourceUrl": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261613.pdf",
+              "publishedAtUtc": "2026-10-22T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-22T20:52:05.891Z"
+            },
+            {
+              "id": "treasury-risk-aversion",
+              "title": "米株はAI関連中心に下落、米債利回りは低下",
+              "fact": "22日の米株はナスダック総合が2.6％安、S&P500が1.2％安で終了。APは市場の不安が米国債利回りを大きく押し下げたと報じており、原油上昇とは異なる方向の金利反応がみられた。",
+              "outlook": "【推測】債券買いによる利回り低下は金の保有コストを軽くし、安全資産需要とともに支えとなる可能性がある。ただし名目金利の低下だけでは実質金利の動きは決まらず、今日の米PMIと消費者のインフレ期待が金利の戻りを招くかが重要になる。",
+              "sourceName": "AP",
+              "sourceUrl": "https://apnews.com/article/1970e79d013cbddcae89c53b4b98f384",
+              "publishedAtUtc": "2026-10-22T20:28:01.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-22T20:53:49.189Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "日本・全国消費者物価指数（2026年9月分）",
+              "scheduledAtUtc": "2026-10-22T23:30:00.000Z",
+              "sourceName": "総務省統計局",
+              "sourceUrl": "https://www.stat.go.jp/data/kouhyou/e-stat_cpi.xml",
+              "retrievedAtUtc": "2026-10-22T20:53:34.277Z",
+              "unit": "％",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米国・S&P Global 総合PMI速報（2026年10月）",
+              "scheduledAtUtc": "2026-10-23T13:45:00.000Z",
+              "sourceName": "S&P Global",
+              "sourceUrl": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+              "retrievedAtUtc": "2026-10-22T20:52:46.536Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米国・ミシガン大学消費者調査（2026年10月確報）",
+              "scheduledAtUtc": "2026-10-23T14:00:00.000Z",
+              "sourceName": "ミシガン大学",
+              "sourceUrl": "https://www.sca.isr.umich.edu/",
+              "retrievedAtUtc": "2026-10-22T20:51:17.128Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "feb0679580ee73b6b6511709611c4d1feca522db22bd13a0cb7044ac53394d06",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
