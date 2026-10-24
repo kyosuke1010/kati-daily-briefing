@@ -1,9 +1,228 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-23T20:48:07.568Z",
+  "builtAtUtc": "2026-10-24T20:46:37.030Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "44086f2443024e320bee16d5878854b9fb57c24e22ccf0f5309b0e353cdee753",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-24T20:46:37.030Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:weekend-saudi-oil",
+            "sourceUrl": "https://wsau.com/2026/10/24/houthis-say-they-attacked-saudi-oil-sites-strikes-reported-on-yemens-aden/",
+            "retrievedAtUtc": "2026-10-24T20:42:27.000Z",
+            "verification": "reviewed",
+            "note": "本文の対象日・価格種別・事実と未確認事項を確認し、見通しを推測として区別。"
+          },
+          {
+            "subjectId": "material:friday-gold",
+            "sourceUrl": "https://www.kitco.com/news/off-the-wire/2026-10-23/gold-set-steep-weekly-loss-rising-oil-prices-bolster-fed-rate-hike",
+            "retrievedAtUtc": "2026-10-24T20:42:27.000Z",
+            "verification": "reviewed",
+            "note": "本文の対象日・価格種別・事実と未確認事項を確認し、見通しを推測として区別。"
+          },
+          {
+            "subjectId": "material:friday-oil",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/oil-prices-jump-3-houthi-attacks-oil-spill-highest-settlement-april",
+            "retrievedAtUtc": "2026-10-24T20:42:27.000Z",
+            "verification": "reviewed",
+            "note": "本文の対象日・価格種別・事実と未確認事項を確認し、見通しを推測として区別。"
+          },
+          {
+            "subjectId": "material:friday-dollar",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/euro-sinks-french-debt-worries-yen-gains-week-ai-rout",
+            "retrievedAtUtc": "2026-10-24T20:42:50.000Z",
+            "verification": "reviewed",
+            "note": "本文の対象日・価格種別・事実と未確認事項を確認し、見通しを推測として区別。"
+          },
+          {
+            "subjectId": "material:next-fomc",
+            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+            "retrievedAtUtc": "2026-10-24T20:44:33.902Z",
+            "verification": "reviewed",
+            "note": "公式カレンダーの会合日と会見予定を確認。決定内容は未発表。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+            "retrievedAtUtc": "2026-10-24T20:44:33.902Z",
+            "verification": "reviewed",
+            "note": "前回公式発表の次回予定欄に10月29日08:30 EDTを確認。12:30 UTC／21:30 JSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+            "retrievedAtUtc": "2026-10-24T20:44:33.902Z",
+            "verification": "reviewed",
+            "note": "前回公式発表の次回予定欄に10月29日08:30 EDTを確認。12:30 UTC／21:30 JSTへ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-25-r1",
+          "dateJst": "2026-10-25",
+          "generatedAtUtc": "2026-10-24T20:46:37.029Z",
+          "period": {
+            "startUtc": "2026-10-22T15:00:00.000Z",
+            "endUtc": "2026-10-24T20:45:33.092Z"
+          },
+          "conclusion": [
+            "週末のサウジ石油施設への攻撃主張は金の安全資産需要を支え得る一方、前営業日23日の原油高とドル高は物価・金利面から金の重荷になり得る。",
+            "日曜朝は23日の相場を参考値とし、まず週明けの被害確認と市場反応、次に米国日付27～28日のFOMCと29日の米GDP・PCE関連統計を注視したい。"
+          ],
+          "materials": [
+            {
+              "id": "weekend-saudi-oil",
+              "title": "週末の新材料：サウジ石油施設への攻撃主張",
+              "fact": "10月24日のReuters報道によると、フーシ派はサウジアラビアの石油施設・空港への攻撃を主張し、サウジ主導連合は弾道ミサイル2発を迎撃したと発表した。サウジ石油施設への着弾・被害や生産・輸出停止はこの記事では確認されておらず、週末報道に対する金相場の反応も未確認。",
+              "outlook": "【推測】緊張が強まれば安全資産としての金需要を支え得るが、攻撃の主張だけで供給障害や金上昇を断定できない。週明けは被害の確認と原油の反応を見極め、原油高が米金利・ドル高につながる場合は金の上値を抑える経路にも注意したい。",
+              "sourceName": "Reuters（WSAU掲載）",
+              "sourceUrl": "https://wsau.com/2026/10/24/houthis-say-they-attacked-saudi-oil-sites-strikes-reported-on-yemens-aden/",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-24",
+              "retrievedAtUtc": "2026-10-24T20:42:27.000Z"
+            },
+            {
+              "id": "friday-gold",
+              "title": "前営業日23日の金：12月限先物は1.3％安",
+              "fact": "日曜朝の参考となる10月23日のReuters報道では、米金先物12月限の清算値は前日比1.3％安の4,007.90ドル／トロイオンス。金現物は同日15:20 UTC（24日00:20 JST）時点で3,998.35ドル、0.6％安とされ、現物の終値ではない。",
+              "outlook": "【推測】原油高による物価上昇懸念が金融引き締め観測を強めれば、利息を生まない金には逆風になり得る。安全資産需要がこれを上回るかが焦点で、金と米金利・ドルの週明けの組み合わせを確認したい。",
+              "sourceName": "Reuters（Kitco掲載）",
+              "sourceUrl": "https://www.kitco.com/news/off-the-wire/2026-10-23/gold-set-steep-weekly-loss-rising-oil-prices-bolster-fed-rate-hike",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-23",
+              "retrievedAtUtc": "2026-10-24T20:42:27.000Z"
+            },
+            {
+              "id": "friday-oil",
+              "title": "23日の原油清算値：WTIは103.27ドル",
+              "fact": "Reutersによる10月23日の原油先物清算値は、WTIが前日比3.80ドル（3.8％）高の103.27ドル／バレル、Brentが3.55ドル（3.14％）高の116.72ドル／バレル。いずれも前営業日の参考値で、24日の追加報道への市場反応を示す値ではない。",
+              "outlook": "【推測】原油高が続けば物価の粘着性と高金利の長期化が意識され、金の保有コストを押し上げる可能性がある。一方で供給不安そのものは金の安全資産需要を支え得るため、原油上昇だけで金の方向は決められず、米金利とドルの追随が分岐点になる。",
+              "sourceName": "Reuters（Euronext掲載）",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/oil-prices-jump-3-houthi-attacks-oil-spill-highest-settlement-april",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-23",
+              "retrievedAtUtc": "2026-10-24T20:42:27.000Z"
+            },
+            {
+              "id": "friday-dollar",
+              "title": "23日の為替報道：ドル指数上昇、ドル円156.9円",
+              "fact": "10月23日の更新後のReuters記事はドル指数を0.25％高の101.82、ドル円を156.9円／ドルと報じた。記事中の最終観測値であり、厳密な観測時刻や公式終値は示されていないため、日曜現在の価格とは扱わない。",
+              "outlook": "【推測】ドル高が継続すれば、他通貨の保有者にとってドル建て金が割高になり、金の需要を抑えやすい。円建て金はドル建て金とドル円の双方に左右されるため、円安による下支えがあってもドル建て金の下落を必ず相殺するとは限らない。",
+              "sourceName": "Reuters（Euronext掲載）",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/euro-sinks-french-debt-worries-yen-gains-week-ai-rout",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-23",
+              "retrievedAtUtc": "2026-10-24T20:42:50.000Z"
+            },
+            {
+              "id": "next-fomc",
+              "title": "次の政策の焦点は10月27～28日のFOMC",
+              "fact": "FRBの公式日程では次回FOMCは米国日付10月27～28日で、28日に記者会見が予定されている。政策判断はまだ発表されておらず、原油高への評価と今後の金利方針が次の確認点となる。",
+              "outlook": "【推測】物価警戒を強める姿勢が米金利・ドルを押し上げれば金には下向きの圧力となる。反対に景気への懸念や引き締めに慎重な姿勢で金利が低下するなら金を支え得るため、政策文言だけでなく発表後の市場反応を見たい。",
+              "sourceName": "米連邦準備制度理事会（FRB）",
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+              "publishedAtUtc": null,
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-24T20:44:33.902Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米GDP・2026年7～9月期速報値（米10/29 08:30 EDT／日本10/29 21:30）",
+              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
+              "sourceName": "米商務省経済分析局（BEA）",
+              "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+              "retrievedAtUtc": "2026-10-24T20:44:33.902Z",
+              "unit": "前期比年率％",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米個人所得・消費支出／PCE物価・2026年9月（米10/29 08:30 EDT／日本10/29 21:30）",
+              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
+              "sourceName": "米商務省経済分析局（BEA）",
+              "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+              "retrievedAtUtc": "2026-10-24T20:44:33.902Z",
+              "unit": "％",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "d451a21de14df0680d7c5e716c872aa4cbb2026788f696e8c32ec103b668d311",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
