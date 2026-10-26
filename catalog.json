@@ -1,9 +1,266 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-25T20:47:55.228Z",
+  "builtAtUtc": "2026-10-26T20:46:39.043Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "dbd886637e9c0af5de3dc49d393fe130be5fac61973e5af2debb4c7d2a9b80e4",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-26T20:46:39.032Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-rebound",
+            "sourceUrl": "https://in.marketscreener.com/news/gold-gains-as-oil-slide-cools-some-inflation-concerns-ce785cdcd88ff125",
+            "retrievedAtUtc": "2026-10-26T20:44:56.458Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:oil-reversal",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/oil-inches-higher-stays-near-six-month-highs-saudi-attacks",
+            "retrievedAtUtc": "2026-10-26T20:44:51.078Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:dollar-yen",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/euro-falls-against-dollar-brazilian-real-tumbles-after-lula-election-win",
+            "retrievedAtUtc": "2026-10-26T20:45:08.478Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:dallas-manufacturing",
+            "sourceUrl": "https://www.dallasfed.org/research/surveys/tmos/2026/2610",
+            "retrievedAtUtc": "2026-10-26T20:44:37.899Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:fomc-next",
+            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+            "retrievedAtUtc": "2026-10-26T20:41:26.665Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.boj.or.jp/en/about/calendar/",
+            "retrievedAtUtc": "2026-10-26T20:42:33.920Z",
+            "verification": "reviewed",
+            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.conference-board.org/topics/consumer-confidence/",
+            "retrievedAtUtc": "2026-10-26T20:44:33.813Z",
+            "verification": "reviewed",
+            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+            "retrievedAtUtc": "2026-10-26T20:42:33.920Z",
+            "verification": "reviewed",
+            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
+          },
+          {
+            "subjectId": "indicator:3",
+            "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+            "retrievedAtUtc": "2026-10-26T20:42:33.920Z",
+            "verification": "reviewed",
+            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-27-r1",
+          "dateJst": "2026-10-27",
+          "generatedAtUtc": "2026-10-26T20:46:39.029Z",
+          "period": {
+            "startUtc": "2026-10-25T15:00:00.000Z",
+            "endUtc": "2026-10-26T20:46:39.029Z"
+          },
+          "conclusion": [
+            "金は26日の米国午前に反発したが、Brentの持ち直しやドル高は、物価・金利とドル建て価格の面から戻りを抑え得る。",
+            "地政学リスクによる下支えと高金利への警戒が交錯し、次の焦点は本日23:00 JSTの米消費者信頼感、米国日付27～28日のFOMC、29日21:30 JSTの米GDP・PCE関連統計となる。"
+          ],
+          "materials": [
+            {
+              "id": "gold-rebound",
+              "title": "金は米国午前に反発、4,018.81ドルの報道値",
+              "fact": "26日のReuters報道では、金現物は同日11:43 EDT（15:43 UTC／27日00:43 JST）時点で0.6％高の4,018.81ドル／トロイオンスだった。記事は原油の下落でインフレ懸念が和らいだことを背景に挙げる。これは米国午前の途中値で、終値や本稿作成時の現在値ではない。",
+              "outlook": "【推測】原油安が物価警戒を和らげ、金利上昇圧力を弱めるなら金の回復を支えやすい。ただし、その後に原油やドルが持ち直す局面では支えが薄れるため、反発が続くかは米金利の反応が重要になる。",
+              "sourceName": "Reuters（MarketScreener掲載）",
+              "sourceUrl": "https://in.marketscreener.com/news/gold-gains-as-oil-slide-cools-some-inflation-concerns-ce785cdcd88ff125",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-26",
+              "retrievedAtUtc": "2026-10-26T20:44:56.458Z"
+            },
+            {
+              "id": "oil-reversal",
+              "title": "原油は一方向の下落ではない：Brentが持ち直す",
+              "fact": "26日の後続Reuters報道では、原油は一時2ドル超下落した後、Brentが前日比プラスへ戻る一方、WTIはなお小幅安だった。外交による緊張緩和への期待と、サウジを狙う攻撃への懸念が併存している。サウジ主導連合は同日、リヤドなどに向かうドローン3機を破壊したと発表した。",
+              "outlook": "【推測】供給不安で原油高が長引けば、物価上昇と高金利の長期化を通じて金には逆風となり得る。一方、攻撃拡大が安全資産需要を強めれば金を支えるため、外交の進展と実際の供給障害の確認が方向を分ける。",
+              "sourceName": "Reuters（Euronext掲載）",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/oil-inches-higher-stays-near-six-month-highs-saudi-attacks",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-26",
+              "retrievedAtUtc": "2026-10-26T20:44:51.078Z"
+            },
+            {
+              "id": "dollar-yen",
+              "title": "ニューヨークの為替報道はドル高・円安",
+              "fact": "26日のニューヨーク発Reuters記事では、ドル指数は0.34％高の102.02、ドル円は157.56円／ドルで、円は0.48％下落した。ユーロも対ドルで0.23％下落した。個別価格の厳密な観測時刻は示されておらず、26日の報道値であって公式終値ではない。",
+              "outlook": "【推測】ドル高が続くと他通貨の買い手にとってドル建て金が割高となり、金の上値を抑えやすい。ただし円安は円換算の金価格を押し上げる側に働くため、日本の読者はドル建て金の方向とドル円を分けて見る必要がある。",
+              "sourceName": "Reuters（Euronext掲載）",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/euro-falls-against-dollar-brazilian-real-tumbles-after-lula-election-win",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-26",
+              "retrievedAtUtc": "2026-10-26T20:45:08.478Z"
+            },
+            {
+              "id": "dallas-manufacturing",
+              "title": "米地域製造業：生産の伸び鈍化と価格圧力が併存",
+              "fact": "ダラス連銀が26日に公表した10月のテキサス製造業調査では、生産指数は9月29.5から15.8、新規受注は30.7から9.3へ低下した。一方、原材料価格指数は52.2から55.3へ上昇した。いずれも増加・減少の回答割合の差を示す指数であり、価格の前年比上昇率ではない。",
+              "outlook": "【推測】生産や受注の減速は金利低下を通じて金を支え得るが、価格圧力の強まりは金融緩和を期待しにくくする。地域調査だけで米国全体の失速とは断定できず、今夜の消費者信頼感と今週のPCE物価でどちらの力が強いかを確認したい。",
+              "sourceName": "ダラス連邦準備銀行",
+              "sourceUrl": "https://www.dallasfed.org/research/surveys/tmos/2026/2610",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-26",
+              "retrievedAtUtc": "2026-10-26T20:44:37.899Z"
+            },
+            {
+              "id": "fomc-next",
+              "title": "FOMCは米国日付27～28日、政策判断はこれから",
+              "fact": "FRBの公式カレンダーでは、FOMCは米国日付10月27～28日の2日間で、28日に記者会見が予定されている。今回の政策判断は情報締切時点でまだ公表されていない。",
+              "outlook": "【推測】インフレへの警戒が強まり米金利・ドルが上昇する場合、利息を生まない金には下押し圧力となる。反対に景気減速への配慮が金利低下につながれば支えになるため、決定内容だけでなく今後の政策姿勢と市場反応が焦点となる。",
+              "sourceName": "米連邦準備制度理事会（FRB）",
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+              "publishedAtUtc": null,
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-26T20:41:26.665Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "日本・企業向けサービス価格指数（2026年9月、日本10/27 08:50）",
+              "scheduledAtUtc": "2026-10-26T23:50:00.000Z",
+              "sourceName": "日本銀行",
+              "sourceUrl": "https://www.boj.or.jp/en/about/calendar/",
+              "retrievedAtUtc": "2026-10-26T20:42:33.920Z",
+              "unit": "％",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米消費者信頼感指数・2026年10月（米10/27 10:00 ET／日本10/27 23:00）",
+              "scheduledAtUtc": "2026-10-27T14:00:00.000Z",
+              "sourceName": "The Conference Board",
+              "sourceUrl": "https://www.conference-board.org/topics/consumer-confidence/",
+              "retrievedAtUtc": "2026-10-26T20:44:33.813Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米GDP・2026年7～9月期速報値（米10/29 08:30 EDT／日本10/29 21:30）",
+              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
+              "sourceName": "米商務省経済分析局（BEA）",
+              "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+              "retrievedAtUtc": "2026-10-26T20:42:33.920Z",
+              "unit": "前期比年率％",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米個人所得・消費支出／PCE物価・2026年9月（米10/29 08:30 EDT／日本10/29 21:30）",
+              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
+              "sourceName": "米商務省経済分析局（BEA）",
+              "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+              "retrievedAtUtc": "2026-10-26T20:42:33.920Z",
+              "unit": "％",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "173014e688cb3f529affecdbfd326c765c938dd45dd421ef3bbbc98ce01c0c46",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
