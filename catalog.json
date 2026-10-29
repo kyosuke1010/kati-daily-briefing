@@ -1,9 +1,228 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-28T20:54:56.140Z",
+  "builtAtUtc": "2026-10-29T20:52:35.188Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "08e4cf0ee612131dac90614200d8beaff249abeb185b56e76d4ab826b0e0982e",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-29T20:52:35.184Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-crossasset-snapshot",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/equities-and-bond-yields-dip-ai-jitters-and-economic-data-focus",
+            "retrievedAtUtc": "2026-10-29T20:49:57.370Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:us-gdp-advance",
+            "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+            "retrievedAtUtc": "2026-10-29T20:47:55.783Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:us-pce-september",
+            "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+            "retrievedAtUtc": "2026-10-29T20:47:55.783Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:ecb-energy-inflation",
+            "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+            "retrievedAtUtc": "2026-10-29T20:48:37.656Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:oil-intraday-easing",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/equities-and-bond-yields-dip-ai-jitters-and-economic-data-focus",
+            "retrievedAtUtc": "2026-10-29T20:49:57.370Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.boj.or.jp/about/calendar/index.htm",
+            "retrievedAtUtc": "2026-10-29T20:49:44.440Z",
+            "verification": "reviewed",
+            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/home.htm",
+            "retrievedAtUtc": "2026-10-29T20:47:55.783Z",
+            "verification": "reviewed",
+            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-30-r1",
+          "dateJst": "2026-10-30",
+          "generatedAtUtc": "2026-10-29T20:52:35.183Z",
+          "period": {
+            "startUtc": "2026-10-28T15:00:00.000Z",
+            "endUtc": "2026-10-29T20:52:35.183Z"
+          },
+          "conclusion": [
+            "米国の堅調な成長と粘る物価が確認される中、金は米取引時間中に下落し、引き締め長期化への警戒が重荷となる一方、ドルと米金利の低下が続けば下支えとなり得る。",
+            "本日は日銀の政策決定・展望レポート（発表時刻未定）と15:30 JSTの総裁会見、今夜21:30の米雇用コスト指数が焦点で、円相場と米賃金インフレへの反応を見たい。"
+          ],
+          "materials": [
+            {
+              "id": "gold-crossasset-snapshot",
+              "title": "金は下落、ドル・米金利の低下だけでは支え切れず",
+              "fact": "29日のReuters米午後の場中報道では、金現物は1.06％安の4,024.01ドル／トロイオンス、ドル指数は0.16％安の101.96、ドル／円は0.03％高の157.87円だった。米10年債利回りは4.61ベーシスポイント低下の4.999％。いずれも記事時点の途中値で、終値や現在値ではなく、個別の観測時刻は本文で示されていない。",
+              "outlook": "【推測】ドル安・金利低下が続けば金の下支えとなるが、今回はそれだけで金の下落を止めるには至っておらず、物価への警戒が残る局面とみる。今夜の米雇用コスト指数で賃金圧力が強まると金利・ドルが反発して金の重荷となり、弱まれば逆風の緩和につながり得る。",
+              "sourceName": "Reuters（Euronext掲載）",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/equities-and-bond-yields-dip-ai-jitters-and-economic-data-focus",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-29",
+              "retrievedAtUtc": "2026-10-29T20:49:57.370Z"
+            },
+            {
+              "id": "us-gdp-advance",
+              "title": "米7～9月期GDP速報は年率3.4％増、内需が堅調",
+              "fact": "BEAが29日08:30 EDT（12:30 UTC／21:30 JST）に公表した7～9月期の実質GDP速報値は、季節調整済み前期比年率3.4％増だった。4～6月期は2.2％増。消費と民間固定投資を合わせた国内民間最終需要は同4.9％増で、速報段階の推計である。",
+              "outlook": "【推測】内需の強さが早期利下げの必要性を弱め、米金利やドルを押し上げれば金には下押し圧力となる。一方、成長が維持されても物価の鈍化が確認されて金利が下がれば、金への逆風は和らぎ得る。",
+              "sourceName": "米商務省経済分析局（BEA）",
+              "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+              "publishedAtUtc": "2026-10-29T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-29T20:47:55.783Z"
+            },
+            {
+              "id": "us-pce-september",
+              "title": "9月PCE物価は前年比3.6％、コア3.1％",
+              "fact": "BEAが29日08:30 EDT（12:30 UTC／21:30 JST）に公表した9月のPCE物価指数は前月比0.5％、前年比3.6％上昇した。食品・エネルギーを除くコアはそれぞれ0.3％、3.1％上昇。実質消費の前月比増加は0.1％未満で、同資料では7・8月の推計も更新されている。",
+              "outlook": "【推測】物価上昇が続く状況はFRBの引き締め長期化観測につながりやすく、米金利・ドルが上向けば金の重荷となる。今夜の雇用コスト指数で賃金圧力が弱まればその警戒が和らぐ余地があるが、強ければ金の反発を妨げ得る。",
+              "sourceName": "米商務省経済分析局（BEA）",
+              "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+              "publishedAtUtc": "2026-10-29T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-29T20:47:55.783Z"
+            },
+            {
+              "id": "ecb-energy-inflation",
+              "title": "ECBは据え置き、エネルギー高と景気下押しを警戒",
+              "fact": "ECBは29日、預金ファシリティ金利2.50％、主要リファイナンス金利2.65％、限界貸出金利2.90％を据え置いた。声明はエネルギー高が物価を押し上げ、成長を下押しするリスクを指摘する一方、基調的なインフレはこれまで概ね安定しているとした。",
+              "outlook": "【推測】エネルギー高を受けた引き締め観測がユーロを支え、対ドルで上昇すればドル建て金にも追い風となり得る。一方、景気悪化への懸念が優勢となってユーロ安・ドル高に向かう場合は逆風となるため、据え置きだけで金の方向を決めず為替の反応を重視したい。",
+              "sourceName": "欧州中央銀行（ECB）",
+              "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-29",
+              "retrievedAtUtc": "2026-10-29T20:48:37.656Z"
+            },
+            {
+              "id": "oil-intraday-easing",
+              "title": "原油は米午後に軟化、物価圧力の緩和が続くか",
+              "fact": "29日のReuters米午後の場中報道では、米原油は0.92％安の101.83ドル／バレル、Brentは0.21％安の115.08ドルだった。記事は和平交渉再開への期待を伝える一方、提示案をイラン高官が受け入れられないとしたとも報じた。価格は記事時点の途中値で、清算値や現在値ではなく、個別の観測時刻は本文で示されていない。",
+              "outlook": "【推測】原油安が継続してインフレ懸念と利上げ観測を和らげれば、米金利を通じて金を支え得る。反対に供給不安で原油が再上昇すれば金利面の逆風が戻りやすいが、紛争拡大時の安全資産需要は金を押し上げる方向にも働き得る。",
+              "sourceName": "Reuters（Euronext掲載）",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/equities-and-bond-yields-dip-ai-jitters-and-economic-data-focus",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-29",
+              "retrievedAtUtc": "2026-10-29T20:49:57.370Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "日銀総裁会見（10/30 15:30 JST、政策決定・展望レポートは同日・時刻未定）",
+              "scheduledAtUtc": "2026-10-30T06:30:00.000Z",
+              "sourceName": "日本銀行",
+              "sourceUrl": "https://www.boj.or.jp/about/calendar/index.htm",
+              "retrievedAtUtc": "2026-10-29T20:49:44.440Z",
+              "unit": "予定",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米雇用コスト指数・2026年7～9月期（米10/30 08:30 EDT／日本10/30 21:30）",
+              "scheduledAtUtc": "2026-10-30T12:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/home.htm",
+              "retrievedAtUtc": "2026-10-29T20:47:55.783Z",
+              "unit": "％",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "6b00a6380ee8f8985005651a8a86860207c59c6a59d20fe1b41c31dc1643de22",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
