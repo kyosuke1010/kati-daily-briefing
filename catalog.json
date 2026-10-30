@@ -1,9 +1,247 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-29T20:52:35.188Z",
+  "builtAtUtc": "2026-10-30T20:53:02.538Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "a1a68e6364b7100e029d04c014c1ba53af3b6e25dc9d438fe16d9fee0e8baba6",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-30T20:53:02.536Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-selloff",
+            "sourceUrl": "https://www.marketscreener.com/news/tech-rout-drives-gold-to-one-year-low-white-metals-sink-deep-into-oversold-zone-ce785fdbde80f123",
+            "retrievedAtUtc": "2026-10-30T20:49:37.285Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・数値を確認。途中値と清算値、観測事実と独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:fx-dollar-yen",
+            "sourceUrl": "https://www.marketscreener.com/news/yen-set-for-third-straight-daily-gain-against-dollar-after-boj-holds-rates-ce785fdbd08aff20",
+            "retrievedAtUtc": "2026-10-30T20:51:00.660Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・数値を確認。途中値と清算値、観測事実と独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:oil-settlement",
+            "sourceUrl": "https://www.marketscreener.com/news/oil-set-for-fourth-monthly-gain-as-hormuz-tanker-attack-highlights-supply-risks-from-war-ce785fdad08ff622",
+            "retrievedAtUtc": "2026-10-30T20:50:43.017Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・数値を確認。途中値と清算値、観測事実と独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:us-employment-costs",
+            "sourceUrl": "https://www.bls.gov/news.release/eci.nr0.htm",
+            "retrievedAtUtc": "2026-10-30T20:48:30.925Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・数値を確認。途中値と清算値、観測事実と独自の見通しを区別。"
+          },
+          {
+            "subjectId": "material:boj-policy-october",
+            "sourceUrl": "https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+            "retrievedAtUtc": "2026-10-30T20:48:58.326Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日・数値を確認。途中値と清算値、観測事実と独自の見通しを区別。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+            "retrievedAtUtc": "2026-10-30T20:49:18.883Z",
+            "verification": "reviewed",
+            "note": "公式予定を確認。米国の夏時間終了後のESTをUTC・日本時間に換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-10-30T20:48:30.925Z",
+            "verification": "reviewed",
+            "note": "公式予定を確認。米国の夏時間終了後のESTをUTC・日本時間に換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-10-30T20:48:30.925Z",
+            "verification": "reviewed",
+            "note": "公式予定を確認。米国の夏時間終了後のESTをUTC・日本時間に換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-10-31-r1",
+          "dateJst": "2026-10-31",
+          "generatedAtUtc": "2026-10-30T20:53:02.535Z",
+          "period": {
+            "startUtc": "2026-10-29T15:00:00.000Z",
+            "endUtc": "2026-10-30T20:52:17.797Z"
+          },
+          "conclusion": [
+            "金は30日の取引で約1年ぶり安値に下落し、株安局面の換金売りリスクと原油高による利上げ警戒が重荷となり得る一方、賃金の伸び鈍化と米金利の低下が続けば下支えとなり得る。",
+            "週末は最新営業日の報道値を参考とし、次の焦点は週明けの原油・ドル・米金利の反応と、日本時間11月3日00:00の米ISM製造業PMI、6日22:30の米雇用統計となる。"
+          ],
+          "materials": [
+            {
+              "id": "gold-selloff",
+              "title": "金現物は約1年ぶり安値、12月限も3.3％安で清算",
+              "fact": "30日18:13 UTC（31日03:13 JST）時点の金現物は3.5％安の1トロイオンス3,880.97ドルで、2025年10月以来の安値。米金先物12月限の30日清算値は3.3％安の3,898.90ドルだった。現物の値は取引途中の観測値で、終値ではない。",
+              "outlook": "【推測】株安が続く局面では換金売りが金にも及ぶ可能性があり、リスク回避が直ちに金高につながるとは限らない。週明けに株価が落ち着き米金利・ドルも低下するなら金の下支えとなり得るが、売り圧力が続けば反発は限られそうだ。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/tech-rout-drives-gold-to-one-year-low-white-metals-sink-deep-into-oversold-zone-ce785fdbde80f123",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-30",
+              "retrievedAtUtc": "2026-10-30T20:49:37.285Z"
+            },
+            {
+              "id": "fx-dollar-yen",
+              "title": "円は対ドルで小幅高、ドル指数は横ばい",
+              "fact": "30日20:32 UTC（31日05:32 JST）配信のReuters記事では、円は対ドル0.11％高の1ドル157.51円、主要6通貨に対するドル指数は横ばいの101.88。記事は米国債利回りの低下も伝えた。為替の厳密な観測時刻は本文に記載がなく、記事時点の途中値として扱う。",
+              "outlook": "【推測】ドル指数が下落に転じればドル建て金を支え得るが、今回は指数が横ばいで、為替だけで金の反発を判断しにくい。円高が続く場合は、ドル建て金が持ち直しても円換算の上昇幅を抑える可能性がある。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/yen-set-for-third-straight-daily-gain-against-dollar-after-boj-holds-rates-ce785fdbd08aff20",
+              "publishedAtUtc": "2026-10-30T20:32:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-30T20:51:00.660Z"
+            },
+            {
+              "id": "oil-settlement",
+              "title": "原油は2％超上昇、WTI清算値104.12ドル",
+              "fact": "30日のWTI原油先物清算値は1バレル104.12ドルで、前日比2.12ドル（2.08％）高。30日に満期を迎えたブレント12月限は2.76ドル（2.4％）高の117.64ドルで清算され、より活発な1月限は2.63ドル高の113.43ドルと報じられた。異なる限月の価格はそのまま連結して比較できない。",
+              "outlook": "【推測】原油高がインフレ懸念と追加利上げ観測を強める場合、金利を生まない金には重荷となり得る。一方で供給不安が安全資産需要を強める経路もあり、週明けは原油だけでなく米金利と金の反応を併せて確認したい。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/oil-set-for-fourth-monthly-gain-as-hormuz-tanker-attack-highlights-supply-risks-from-war-ce785fdad08ff622",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-30",
+              "retrievedAtUtc": "2026-10-30T20:50:43.017Z"
+            },
+            {
+              "id": "us-employment-costs",
+              "title": "米雇用コストは前期比0.8％増、賃金の伸びは鈍化",
+              "fact": "BLSが30日08:30 EDT（21:30 JST）に公表した7～9月期の民間・州地方政府を合わせた雇用コストは、季節調整済み前期比0.8％増。4～6月期の0.9％増から伸びが縮小し、賃金・給与は0.7％増、福利厚生費は0.9％増だった。雇用コストの前年比は季節調整前で3.4％増。",
+              "outlook": "【推測】賃金の伸びの鈍化がインフレ圧力の緩和と受け止められ、米金利やドルが下がれば金を支え得る。ただし原油高による物価圧力が残る場合は利上げ警戒が弱まらず、この結果だけで金の逆風が解消するとは限らない。",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/news.release/eci.nr0.htm",
+              "publishedAtUtc": "2026-10-30T12:30:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-30T20:48:30.925Z"
+            },
+            {
+              "id": "boj-policy-october",
+              "title": "日銀は1.25％程度を維持、ETF売却ペースを見直し",
+              "fact": "日銀は30日、無担保コール翌日物金利を1.25％程度とする方針を賛成8・反対1で決定した。ETFの年間売却ペースは簿価ベースで3,300億円程度から8,600億円程度へ変更し、2027年1月から実施する。反対委員が提案した1.5％程度への引き上げ案は否決された。",
+              "outlook": "【推測】日銀の政策を受けて円高が進む場合、ドル建て金価格が一定なら円換算の金には下押し要因となる。ドル建て金への波及は円相場だけでは決まらず、ドル全体が弱まり米金利も低下するなら支え、反対なら重荷となるため、週明けの為替と金利の組み合わせに注目したい。",
+              "sourceName": "日本銀行",
+              "sourceUrl": "https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+              "publishedAtUtc": "2026-10-30T03:02:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-10-30T20:48:58.326Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米ISM製造業PMI（米11/2 10:00 EST／日本11/3 00:00）",
+              "scheduledAtUtc": "2026-11-02T15:00:00.000Z",
+              "sourceName": "ISM",
+              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+              "retrievedAtUtc": "2026-10-30T20:49:18.883Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米JOLTS求人・2026年9月（米11/3 10:00 EST／日本11/4 00:00）",
+              "scheduledAtUtc": "2026-11-03T15:00:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-10-30T20:48:30.925Z",
+              "unit": "件数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米雇用統計・2026年10月（米11/6 08:30 EST／日本11/6 22:30）",
+              "scheduledAtUtc": "2026-11-06T13:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-10-30T20:48:30.925Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "08e4cf0ee612131dac90614200d8beaff249abeb185b56e76d4ab826b0e0982e",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
