@@ -1,9 +1,266 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-10-30T20:53:02.538Z",
+  "builtAtUtc": "2026-10-31T20:48:12.649Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "d088638f9752d0c0bf6f924a5d5b87f06322d62ffed029f79853355e6e68c353",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-10-31T20:48:12.648Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold",
+            "sourceUrl": "https://www.marketscreener.com/news/tech-rout-drives-gold-to-one-year-low-white-metals-sink-deep-into-oversold-zone-ce785fdbde80f123",
+            "retrievedAtUtc": "2026-10-31T20:46:41.825Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日、数値と観測・清算時点を確認。週末の現在値と区別。"
+          },
+          {
+            "subjectId": "material:fx",
+            "sourceUrl": "https://www.marketscreener.com/news/yen-set-for-third-straight-daily-gain-against-dollar-after-boj-holds-rates-ce785fdbd08aff20",
+            "retrievedAtUtc": "2026-10-31T20:46:41.825Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日、数値と観測・清算時点を確認。週末の現在値と区別。"
+          },
+          {
+            "subjectId": "material:oil",
+            "sourceUrl": "https://www.marketscreener.com/news/oil-set-for-fourth-monthly-gain-as-hormuz-tanker-attack-highlights-supply-risks-from-war-ce785fdad08ff622",
+            "retrievedAtUtc": "2026-10-31T20:46:41.825Z",
+            "verification": "reviewed",
+            "note": "出典本文の対象日、数値と観測・清算時点を確認。週末の現在値と区別。"
+          },
+          {
+            "subjectId": "material:china-october-pmi",
+            "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+            "retrievedAtUtc": "2026-10-31T20:46:10.466Z",
+            "verification": "reviewed",
+            "note": "公式本文の10月・9月比較と季節調整済みの指数を確認。"
+          },
+          {
+            "subjectId": "material:opec",
+            "sourceUrl": "https://uk.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220",
+            "retrievedAtUtc": "2026-10-31T20:48:12.539Z",
+            "verification": "reviewed",
+            "note": "匿名筋による事前報道であり正式決定ではないこと、対象月と会合日を確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+            "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+            "verification": "reviewed",
+            "note": "公式日程の発表日・米東部時刻を確認。標準時間のUTC・日本時間へ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+            "verification": "reviewed",
+            "note": "公式日程の発表日・米東部時刻を確認。標準時間のUTC・日本時間へ換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+            "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+            "verification": "reviewed",
+            "note": "公式日程の発表日・米東部時刻を確認。標準時間のUTC・日本時間へ換算。"
+          },
+          {
+            "subjectId": "indicator:3",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+            "verification": "reviewed",
+            "note": "公式日程の発表日・米東部時刻を確認。標準時間のUTC・日本時間へ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-11-01-r1",
+          "dateJst": "2026-11-01",
+          "generatedAtUtc": "2026-10-31T20:48:12.647Z",
+          "period": {
+            "startUtc": "2026-10-29T15:00:00.000Z",
+            "endUtc": "2026-10-31T20:48:12.540Z"
+          },
+          "conclusion": [
+            "金は最新営業日の10月30日に大きく下落し、原油高による金利上昇リスクが重荷となる一方、週末に判明した中国景況感の弱さが原油・米金利の低下につながれば下支えとなり得る。",
+            "11月1日は週末のため価格は直近営業日の参考値とし、OPEC＋会合の正式結果と週明けのドル・米金利、11月3日00:00の米ISM製造業PMI、6日22:30の米雇用統計（日本時間）を注視したい。"
+          ],
+          "materials": [
+            {
+              "id": "gold",
+              "title": "金は約1年ぶり安値で週末へ、株安時の換金圧力に注意",
+              "fact": "最新営業日10月30日の米金先物12月限は、前日比3.3％安の1トロイオンス3,898.90ドルで清算された。同日18:13 UTC（31日03:13 JST）の金現物は3.5％安の3,880.97ドルで、2025年10月以来の安値だった。現物は当時の途中値であり、週末の現在値ではない。",
+              "outlook": "【推測】株安に伴う換金売りが続けば、金は安全資産として買われても上値を抑えられ得る。週明けに株式市場が落ち着き、米金利とドルも低下すれば、金の下支えが働きやすくなる。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/tech-rout-drives-gold-to-one-year-low-white-metals-sink-deep-into-oversold-zone-ce785fdbde80f123",
+              "publishedAtUtc": "2026-10-30T18:54:00.000Z",
+              "retrievedAtUtc": "2026-10-31T20:46:41.825Z",
+              "publishedDate": null
+            },
+            {
+              "id": "fx",
+              "title": "円は小幅高、ドル指数は横ばいで週末へ",
+              "fact": "10月30日20:32 UTC（31日05:32 JST）配信のReuters記事では、円は対ドル0.11％高の1ドル157.51円、ドル指数は横ばいの101.88だった。米国債利回りの低下がドルの重荷になったと報じた。価格の厳密な観測時刻は本文に記載されておらず、最新営業日の記事時点の参考値として扱う。",
+              "outlook": "【推測】米金利低下が続きドルも下落すれば、ドル建て金の支援材料になる。一方、円高が進む場合は円換算の金価格の上昇を抑えるため、ドル建てと円建ての動きを分けて見る必要がある。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/yen-set-for-third-straight-daily-gain-against-dollar-after-boj-holds-rates-ce785fdbd08aff20",
+              "publishedAtUtc": "2026-10-30T20:32:00.000Z",
+              "retrievedAtUtc": "2026-10-31T20:46:41.825Z",
+              "publishedDate": null
+            },
+            {
+              "id": "oil",
+              "title": "原油は半年ぶり高値、物価圧力を週明けに持ち越し",
+              "fact": "最新営業日10月30日のWTI原油先物は1バレル104.12ドルで清算され、前日比2.12ドル（2.08％）上昇した。同日に満期を迎えたブレント12月限は117.64ドルで清算され、2.4％上昇。Reutersは両原油の清算値が4月末以来の高値になったと伝えた。",
+              "outlook": "【推測】原油高が物価と追加引き締めへの警戒を強め、米金利を押し上げれば金には逆風となる。供給不安が和らいで原油・金利が低下する場合はその逆風が弱まるが、情勢悪化時には安全資産需要が金を支える可能性もある。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://www.marketscreener.com/news/oil-set-for-fourth-monthly-gain-as-hormuz-tanker-attack-highlights-supply-risks-from-war-ce785fdad08ff622",
+              "publishedAtUtc": "2026-10-30T19:29:00.000Z",
+              "retrievedAtUtc": "2026-10-31T20:46:41.825Z",
+              "publishedDate": null
+            },
+            {
+              "id": "china-october-pmi",
+              "title": "週末発表の中国PMIは50割れ、製造業・非製造業とも減速",
+              "fact": "中国国家統計局が10月31日に公表した季節調整済みの10月製造業PMIは49.3で、9月の50.1から低下した。非製造業の商務活動指数も50.2から49.7へ低下し、いずれも拡大・縮小の境目となる50を下回った。製造業の新規輸出受注指数は50.0から48.7へ低下した。",
+              "outlook": "【推測】中国の需要減速が原油価格や世界の金利を押し下げれば、金には金利面から支えとなり得る。一方、人民元安・ドル高や換金売りが優勢なら金の重荷になるため、週明けのドルと米金利が景気懸念にどう反応するかが重要だ。",
+              "sourceName": "中国国家統計局",
+              "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-10-31",
+              "retrievedAtUtc": "2026-10-31T20:46:10.466Z"
+            },
+            {
+              "id": "opec",
+              "title": "OPEC＋は12月目標据え置きで原則合意との報道、正式発表待ち",
+              "fact": "Reutersは10月31日、事情を知る3人の話として、OPEC＋が翌11月1日の会合で12月の生産目標を据え置く方針に原則合意したと報じた。匿名筋に基づく事前報道で、会合後の正式決定ではない。湾岸加盟国の多くは戦争の影響で目標を下回る生産が続いているという。",
+              "outlook": "【推測】目標据え置きだけでは実際の供給不足が解消せず、原油高と金利上昇への警戒が残れば金の重荷になる。会合後の声明と実際の輸出回復が供給不安を和らげれば、物価・金利面から金を支える余地がある。",
+              "sourceName": "Reuters／MarketScreener",
+              "sourceUrl": "https://uk.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220",
+              "publishedAtUtc": "2026-10-31T18:05:00.000Z",
+              "retrievedAtUtc": "2026-10-31T20:48:12.539Z",
+              "publishedDate": null
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米ISM製造業PMI・2026年10月（米11/2 10:00 EST／日本11/3 00:00）",
+              "scheduledAtUtc": "2026-11-02T15:00:00.000Z",
+              "sourceName": "ISM",
+              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+              "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米JOLTS求人・2026年9月（米11/3 10:00 EST／日本11/4 00:00）",
+              "scheduledAtUtc": "2026-11-03T15:00:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+              "unit": "件数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米ISM非製造業PMI・2026年10月（米11/4 10:00 EST／日本11/5 00:00）",
+              "scheduledAtUtc": "2026-11-04T15:00:00.000Z",
+              "sourceName": "ISM",
+              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+              "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米雇用統計・2026年10月（米11/6 08:30 EST／日本11/6 22:30）",
+              "scheduledAtUtc": "2026-11-06T13:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-10-31T20:45:45.761Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "a1a68e6364b7100e029d04c014c1ba53af3b6e25dc9d438fe16d9fee0e8baba6",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
