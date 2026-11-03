@@ -1,9 +1,211 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-11-02T20:50:49.885Z",
+  "builtAtUtc": "2026-11-03T20:54:27.415Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "cd14dd9ed46dbaa4db7d4f47fc670142a712ba239f07b16b018f348e871934ff",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-11-03T20:54:27.413Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-yields-dollar",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/stocks-wobble-oil-prices-fall-trump-says-israel-aid-will-stop",
+            "retrievedAtUtc": "2026-11-03T20:52:51.800Z",
+            "verification": "reviewed",
+            "note": "Reuters本文の対象日、場中参考値と報道内容を確認。"
+          },
+          {
+            "subjectId": "material:jolts-september",
+            "sourceUrl": "https://www.bls.gov/news.release/jolts.htm",
+            "retrievedAtUtc": "2026-11-03T20:52:27.631Z",
+            "verification": "reviewed",
+            "note": "BLS本文と表Aの速報・改定値、単位、発表日時を確認。"
+          },
+          {
+            "subjectId": "material:oil-aid-diplomacy",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/oil-prices-slide-after-trump-comment-stopping-israel-aid",
+            "retrievedAtUtc": "2026-11-03T20:52:51.800Z",
+            "verification": "reviewed",
+            "note": "Reuters本文の対象日、場中参考値と報道内容を確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+            "retrievedAtUtc": "2026-11-03T20:52:27.631Z",
+            "verification": "reviewed",
+            "note": "公式予定表の発表日・米東部時間を確認し、日本時間へ換算。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-11-03T20:52:27.631Z",
+            "verification": "reviewed",
+            "note": "公式予定表の発表日・米東部時間を確認し、日本時間へ換算。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-11-03T20:52:27.631Z",
+            "verification": "reviewed",
+            "note": "公式予定表の発表日・米東部時間を確認し、日本時間へ換算。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-11-04-r1",
+          "dateJst": "2026-11-04",
+          "generatedAtUtc": "2026-11-03T20:54:27.348Z",
+          "period": {
+            "startUtc": "2026-11-02T15:00:00.000Z",
+            "endUtc": "2026-11-03T20:53:43.129Z"
+          },
+          "conclusion": [
+            "11月3日の米市場では金現物が軟調で米10年債利回りは上昇し、金利面は金に逆風となる一方、原油安が物価懸念を和らげれば支えになり得ます。",
+            "次の焦点は米中間選挙の結果と日本時間5日00:00のISMサービス業PMIで、求人の底堅さを受けた金利上昇圧力と原油安のどちらがドル・米金利に強く表れるかが重要です。"
+          ],
+          "materials": [
+            {
+              "id": "gold-yields-dollar",
+              "title": "金は軟調、米長期金利は上昇",
+              "fact": "11月3日付のReuters米市場報道では、金現物は0.39％安の1トロイオンス3,932.20ドル、米10年債利回りは4.3ベーシスポイント高い4.935％だった。ドル円は0.32％ドル高の1ドル158.44円、ドル指数はほぼ横ばいの101.81。同報道のBrent先物は1バレル103.28ドル、1.45％安。各値の個別観測時刻は記載されていない場中参考値で、終値や今朝の現在値ではない。",
+              "outlook": "【推測】米長期金利の上昇が続けば、利息を生まない金を持つ機会費用が高まり上値を抑えやすい。原油安だけで金高とは決められず、選挙結果や次の米指標を受けて金利が下がるか、ドル高が広がるかが分岐点となる。",
+              "sourceName": "Reuters／Euronext",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/stocks-wobble-oil-prices-fall-trump-says-israel-aid-will-stop",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-11-03",
+              "retrievedAtUtc": "2026-11-03T20:52:51.800Z"
+            },
+            {
+              "id": "jolts-september",
+              "title": "米求人は752.3万件、8月分も上方改定",
+              "fact": "米9月JOLTSの求人件数は季節調整済み速報752.3万件で、8月改定値は719.0万件。8月分は前回から11.1万件上方改定された。BLSは9月の求人を「ほぼ変わらず」と評価している。発表は米11月3日10:00 EST（日本4日00:00）。",
+              "outlook": "【推測】求人需要の底堅さが利下げを急がない理由と受け止められれば、ドル・米金利を通じて金には下押し材料となり得る。ただしBLSの評価は大幅改善ではなく、6日の雇用統計で雇用・賃金の減速が示されれば金利高の圧力が和らぐ可能性がある。",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/news.release/jolts.htm",
+              "publishedAtUtc": "2026-11-03T15:00:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-11-03T20:52:27.631Z"
+            },
+            {
+              "id": "oil-aid-diplomacy",
+              "title": "原油は反落、米国の対イスラエル支援終了発言",
+              "fact": "11月3日13:50 UTC（22:50 JST）のBrent先物は3.3％安の1バレル101.32ドル、WTIは2.2％安の94.30ドル。これは場中の参考値で、清算値ではない。Reutersは、トランプ米大統領が年末までにイスラエルへの資金支援を終了すると述べた後に原油が下落したと報じた。一方、米国とイランの戦争終結合意にはなお隔たりがあるとも伝えている。",
+              "outlook": "【推測】原油下落が持続して物価見通しと米金利を押し下げれば金には追い風となり得る。一方、緊張緩和は安全資産需要を弱める面もあり、合意が未成立の段階では原油の反発と金利の再上昇にも注意が必要となる。",
+              "sourceName": "Reuters／Euronext",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/oil-prices-slide-after-trump-comment-stopping-israel-aid",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-11-03",
+              "retrievedAtUtc": "2026-11-03T20:52:51.800Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米ISMサービス業PMI・2026年10月（米11/4 10:00 EST／日本11/5 00:00）",
+              "scheduledAtUtc": "2026-11-04T15:00:00.000Z",
+              "sourceName": "ISM",
+              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+              "retrievedAtUtc": "2026-11-03T20:52:27.631Z",
+              "unit": "指数",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米労働生産性・単位労働コスト・2026年7～9月期速報（米11/5 08:30 EST／日本11/5 22:30）",
+              "scheduledAtUtc": "2026-11-05T13:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-11-03T20:52:27.631Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米雇用統計・2026年10月（米11/6 08:30 EST／日本11/6 22:30）",
+              "scheduledAtUtc": "2026-11-06T13:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-11-03T20:52:27.631Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "fdfc00069b8e792a1c142acb5f3cac45bfb7545357491e2cb3e6ea3d9a285cb6",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
@@ -6599,482 +6801,6 @@
               "sourceName": "US Bureau of Labor Statistics",
               "sourceUrl": "https://www.bls.gov/schedule/2026/home.htm",
               "retrievedAtUtc": "2026-10-05T20:46:21.386Z",
-              "unit": "%",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            }
-          ],
-          "prices": [
-            {
-              "id": "XAUUSD",
-              "label": "金現物",
-              "value": null,
-              "unit": "USD/トロイオンス",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "USDJPY",
-              "label": "米ドル／円",
-              "value": null,
-              "unit": "JPY/USD",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "DXY",
-              "label": "米ドル指数",
-              "value": null,
-              "unit": "指数",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "UST10Y",
-              "label": "米10年国債利回り",
-              "value": null,
-              "unit": "%",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "WTI",
-              "label": "WTI原油",
-              "value": null,
-              "unit": "USD/バレル",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            }
-          ],
-          "revisionOf": null
-        }
-      }
-    },
-    {
-      "role": "history",
-      "sha256": "4a53ca567c9bfacb33c06d32b21858e9cfa346ac82047195b0171e90124923d0",
-      "manuscript": {
-        "kind": "kati-brief-manuscript-v1",
-        "contentKind": "real",
-        "status": "approved",
-        "revision": 2,
-        "approval": {
-          "approvedAtUtc": "2026-10-04T23:52:27.727Z",
-          "reference": "Editorial review under owner-authorized daily publication workflow"
-        },
-        "evidence": [
-          {
-            "subjectId": "material:us-employment-september",
-            "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。 金への方向・伝達経路・反転条件は独自の条件付き推論であり、発表元による金価格予測でも、当日の値動きの確認でもありません。一般的な経路の補助確認：World Gold Council https://www.gold.org/goldhub/research/gold-outlook-2026 およびChicago Fed https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2021/cfl464-pdf.pdf?sc_lang=en（補助研究取得：2026-10-04T23:48:11.217Z）。既存ニュースの取得時刻は変更していません。"
-          },
-          {
-            "subjectId": "material:ism-manufacturing-september",
-            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。 金への方向・伝達経路・反転条件は独自の条件付き推論であり、発表元による金価格予測でも、当日の値動きの確認でもありません。一般的な経路の補助確認：World Gold Council https://www.gold.org/goldhub/research/gold-outlook-2026 およびChicago Fed https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2021/cfl464-pdf.pdf?sc_lang=en（補助研究取得：2026-10-04T23:48:11.217Z）。既存ニュースの取得時刻は変更していません。"
-          },
-          {
-            "subjectId": "material:fomc-september-background",
-            "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。 金への方向・伝達経路・反転条件は独自の条件付き推論であり、発表元による金価格予測でも、当日の値動きの確認でもありません。一般的な経路の補助確認：World Gold Council https://www.gold.org/goldhub/research/gold-outlook-2026 およびChicago Fed https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2021/cfl464-pdf.pdf?sc_lang=en（補助研究取得：2026-10-04T23:48:11.217Z）。既存ニュースの取得時刻は変更していません。"
-          },
-          {
-            "subjectId": "material:opec-october-decision",
-            "sourceUrl": "https://www.opec.org/pr-detail/1891616-4-october-2026.html",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。 金への方向・伝達経路・反転条件は独自の条件付き推論であり、発表元による金価格予測でも、当日の値動きの確認でもありません。一般的な経路の補助確認：World Gold Council https://www.gold.org/goldhub/research/gold-outlook-2026 およびChicago Fed https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2021/cfl464-pdf.pdf?sc_lang=en（補助研究取得：2026-10-04T23:48:11.217Z）。既存ニュースの取得時刻は変更していません。"
-          },
-          {
-            "subjectId": "material:g7-energy-release",
-            "sourceUrl": "https://www.elysee.fr/en/G7evian/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability-1",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。 金への方向・伝達経路・反転条件は独自の条件付き推論であり、発表元による金価格予測でも、当日の値動きの確認でもありません。一般的な経路の補助確認：World Gold Council https://www.gold.org/goldhub/research/gold-outlook-2026 およびChicago Fed https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2021/cfl464-pdf.pdf?sc_lang=en（補助研究取得：2026-10-04T23:48:11.217Z）。既存ニュースの取得時刻は変更していません。"
-          },
-          {
-            "subjectId": "indicator:0",
-            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/august/",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "発表元の予定を確認し、米東部夏時間からUTC・JSTへ換算。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。予定は変更される場合があります。"
-          },
-          {
-            "subjectId": "indicator:1",
-            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "発表元の予定を確認し、米東部夏時間からUTC・JSTへ換算。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。予定は変更される場合があります。"
-          },
-          {
-            "subjectId": "indicator:2",
-            "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "発表元の予定を確認し、米東部夏時間からUTC・JSTへ換算。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。予定は変更される場合があります。"
-          }
-        ],
-        "record": {
-          "id": "kati-daily-2026-10-05-r2",
-          "dateJst": "2026-10-05",
-          "generatedAtUtc": "2026-10-04T23:52:27.727Z",
-          "period": {
-            "startUtc": "2026-09-16T18:00:00.000Z",
-            "endUtc": "2026-10-04T23:48:11.217Z"
-          },
-          "conclusion": [
-            "【推測】金は、弱い米雇用がドル安・実質金利低下を促す上向きの力と、物価圧力が金融引締め長期化を促す下向きの力の綱引きです。",
-            "【推測】本日23:00 JSTのISMサービス業で雇用の弱さが裏づけられ、ドル・実質金利が下がれば金を支えますが、価格圧力が利上げ観測とともに強まれば逆風になります。"
-          ],
-          "materials": [
-            {
-              "id": "us-employment-september",
-              "title": "米雇用は2.9万人増、ドル・金利低下なら金を支援",
-              "fact": "9月の非農業部門雇用者数は前月比2.9万人増、失業率は4.2%、7・8月の雇用増減は合計6万人下方修正されました（10月2日21:30 JST発表）。",
-              "outlook": "【推測】弱い雇用が追加利上げ観測を後退させ、ドル安・実質金利低下につながるなら、金には上向きの材料です。物価警戒から金融引締めの見方が変わらず、ドルや実質金利が下がらなければ、金を支える効果は限られます。",
-              "sourceName": "US Bureau of Labor Statistics",
-              "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-              "publishedAtUtc": "2026-10-02T12:30:00.000Z",
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "ism-manufacturing-september",
-              "title": "製造業の価格圧力、引締め長期化なら金に逆風",
-              "fact": "9月ISM製造業PMIは54.5、仕入れ価格指数は77.9でした（10月1日公表）。",
-              "outlook": "【推測】仕入れ価格の上昇が金融引締めの長期化を意識させ、ドル高・実質金利上昇につながるなら、金には下向きの材料です。ただし、金利上昇よりインフレへの不安が強まり、金を持つ需要が増える場合は、この逆風が弱まる可能性があります。",
-              "sourceName": "Institute for Supply Management",
-              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-01",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "fomc-september-background",
-              "title": "9月FOMCの利上げ、金利高が続くかに注目",
-              "fact": "FOMCは9月16日（米東部時間）に政策金利の目標レンジを0.25ポイント引き上げ、3.75〜4.00%としました。",
-              "outlook": "【推測】引締め継続がドル高・実質金利上昇につながれば、利息を生まない金には重荷となる政策背景です。ただし、これは過去の決定なので新たな下落材料になるとは限らず、追加利上げ観測が後退すれば金への逆風は和らぎます。",
-              "sourceName": "Federal Reserve",
-              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-              "publishedAtUtc": "2026-09-16T18:00:00.000Z",
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "opec-october-decision",
-              "title": "OPEC+が生産目標を維持、金への波及は原油と金利次第",
-              "fact": "OPEC+の対象7か国は10月4日、11月の必要生産量を9月水準に維持すると決定しました。",
-              "outlook": "【推測】金への影響は原油・ドル・金利の反応次第で、生産目標の維持だけでは方向を決められません。供給不安が金への逃避需要を強めれば上向きですが、物価警戒によるドル高・実質金利上昇が勝れば下向きとなり、出荷改善で不安が薄れれば支えも弱まります。",
-              "sourceName": "OPEC",
-              "sourceUrl": "https://www.opec.org/pr-detail/1891616-4-october-2026.html",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-04",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "g7-energy-release",
-              "title": "G7の備蓄放出、供給不安の緩和は金の重荷にも",
-              "fact": "G7は10月2日、3月の約束の履行として、IEAを通じた1億バレルの協調放出を直ちに開始し、4か月で実施すると表明しました。",
-              "outlook": "【推測】放出の実行が供給不安を和らげ、インフレへの備えや安全資産として金を持つ需要を減らすなら、金には下向きの材料です。ただし、金融引締めへの警戒も薄れてドル・実質金利が下がれば金を支える側に回り、放出が遅れれば不安の緩和も限定的です。",
-              "sourceName": "French Presidency / G7 chair",
-              "sourceUrl": "https://www.elysee.fr/en/G7evian/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability-1",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-02",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            }
-          ],
-          "indicators": [
-            {
-              "name": "9月米ISMサービス業PMI",
-              "scheduledAtUtc": "2026-10-05T14:00:00.000Z",
-              "sourceName": "Institute for Supply Management",
-              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/august/",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-              "unit": "指数",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "9月15〜16日FOMC議事要旨",
-              "scheduledAtUtc": "2026-10-07T18:00:00.000Z",
-              "sourceName": "Federal Reserve",
-              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-              "unit": "該当なし",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "9月米消費者物価指数（CPI）",
-              "scheduledAtUtc": "2026-10-14T12:30:00.000Z",
-              "sourceName": "US Bureau of Labor Statistics",
-              "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-              "unit": "%",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            }
-          ],
-          "prices": [
-            {
-              "id": "XAUUSD",
-              "label": "金現物",
-              "value": null,
-              "unit": "USD/トロイオンス",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "USDJPY",
-              "label": "米ドル／円",
-              "value": null,
-              "unit": "JPY/USD",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "DXY",
-              "label": "米ドル指数",
-              "value": null,
-              "unit": "指数",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "UST10Y",
-              "label": "米10年国債利回り",
-              "value": null,
-              "unit": "%",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "WTI",
-              "label": "WTI原油",
-              "value": null,
-              "unit": "USD/バレル",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            }
-          ],
-          "revisionOf": "kati-daily-2026-10-05-r1"
-        }
-      }
-    },
-    {
-      "role": "history",
-      "sha256": "c8cd573e28c36f36d512621b130c31a2ea8896b4b47f7d2c8aba106ad361629e",
-      "manuscript": {
-        "kind": "kati-brief-manuscript-v1",
-        "contentKind": "real",
-        "status": "approved",
-        "revision": 1,
-        "approval": {
-          "approvedAtUtc": "2026-10-04T21:18:38.808Z",
-          "reference": "Editorial review under owner-authorized daily publication workflow"
-        },
-        "evidence": [
-          {
-            "subjectId": "material:us-employment-september",
-            "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。"
-          },
-          {
-            "subjectId": "material:ism-manufacturing-september",
-            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。"
-          },
-          {
-            "subjectId": "material:fomc-september-background",
-            "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。"
-          },
-          {
-            "subjectId": "material:opec-october-decision",
-            "sourceUrl": "https://www.opec.org/pr-detail/1891616-4-october-2026.html",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。"
-          },
-          {
-            "subjectId": "material:g7-energy-release",
-            "sourceUrl": "https://www.elysee.fr/en/G7evian/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability-1",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "公開一次資料の該当数値・対象期間・発表日を確認。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。事実と推測を分離。"
-          },
-          {
-            "subjectId": "indicator:0",
-            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/august/",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "発表元の予定を確認し、米東部夏時間からUTC・JSTへ換算。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。予定は変更される場合があります。"
-          },
-          {
-            "subjectId": "indicator:1",
-            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "発表元の予定を確認し、米東部夏時間からUTC・JSTへ換算。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。予定は変更される場合があります。"
-          },
-          {
-            "subjectId": "indicator:2",
-            "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
-            "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-            "verification": "reviewed",
-            "note": "発表元の予定を確認し、米東部夏時間からUTC・JSTへ換算。取得時刻は2026年10月4日21:05 UTCの分単位の概算記録。予定は変更される場合があります。"
-          }
-        ],
-        "record": {
-          "id": "kati-daily-2026-10-05-r1",
-          "dateJst": "2026-10-05",
-          "generatedAtUtc": "2026-10-04T21:18:08.637Z",
-          "period": {
-            "startUtc": "2026-09-16T18:00:00.000Z",
-            "endUtc": "2026-10-04T21:05:00.000Z"
-          },
-          "conclusion": [
-            "【推測】米雇用の弱い伸びと製造業の仕入れ価格上昇が併存しており、金・ドル円の方向を一つの指標だけで決めつけにくい局面です。",
-            "本日は23:00 JST予定の米ISMサービス業を中心に、週末の原油供給政策と合わせて確認します。"
-          ],
-          "materials": [
-            {
-              "id": "us-employment-september",
-              "title": "米雇用",
-              "fact": "9月の非農業部門雇用者数は前月比2.9万人増、失業率は4.2%、7・8月の雇用増減は合計6万人下方修正されました（10月2日21:30 JST発表）。",
-              "outlook": "【推測】雇用の勢いを見極める際は、単月の数字と過去分の改定を合わせて見る必要があります。",
-              "sourceName": "US Bureau of Labor Statistics",
-              "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-              "publishedAtUtc": "2026-10-02T12:30:00.000Z",
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "ism-manufacturing-september",
-              "title": "製造業の価格圧力",
-              "fact": "9月ISM製造業PMIは54.5、仕入れ価格指数は77.9でした（10月1日公表）。",
-              "outlook": "【推測】雇用の弱い伸びだけを根拠に、物価圧力まで後退したとは判断できません。",
-              "sourceName": "Institute for Supply Management",
-              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-01",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "fomc-september-background",
-              "title": "米金融政策の背景（9月決定）",
-              "fact": "FOMCは9月16日（米東部時間）に政策金利の目標レンジを0.25ポイント引き上げ、3.75〜4.00%としました。",
-              "outlook": "【推測】今後の政策判断を考える材料は雇用だけではなく、物価と金融当局の説明も含みます。",
-              "sourceName": "Federal Reserve",
-              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-              "publishedAtUtc": "2026-09-16T18:00:00.000Z",
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "opec-october-decision",
-              "title": "週末の原油生産政策",
-              "fact": "OPEC+の対象7か国は10月4日、11月の必要生産量を9月水準に維持すると決定しました。",
-              "outlook": "【推測】生産目標の維持は、実際の出荷量や輸送障害の改善を意味しません。",
-              "sourceName": "OPEC",
-              "sourceUrl": "https://www.opec.org/pr-detail/1891616-4-october-2026.html",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-04",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            },
-            {
-              "id": "g7-energy-release",
-              "title": "備蓄放出の実行計画",
-              "fact": "G7は10月2日、3月の約束の履行として、IEAを通じた1億バレルの協調放出を直ちに開始し、4か月で実施すると表明しました。",
-              "outlook": "【推測】注目点は発表数量だけでなく実際の供給時期であり、新たな追加放出と同一視しません。",
-              "sourceName": "French Presidency / G7 chair",
-              "sourceUrl": "https://www.elysee.fr/en/G7evian/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability-1",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-02",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z"
-            }
-          ],
-          "indicators": [
-            {
-              "name": "9月米ISMサービス業PMI",
-              "scheduledAtUtc": "2026-10-05T14:00:00.000Z",
-              "sourceName": "Institute for Supply Management",
-              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/august/",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-              "unit": "指数",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "9月15〜16日FOMC議事要旨",
-              "scheduledAtUtc": "2026-10-07T18:00:00.000Z",
-              "sourceName": "Federal Reserve",
-              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
-              "unit": "該当なし",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "9月米消費者物価指数（CPI）",
-              "scheduledAtUtc": "2026-10-14T12:30:00.000Z",
-              "sourceName": "US Bureau of Labor Statistics",
-              "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
-              "retrievedAtUtc": "2026-10-04T21:05:00.000Z",
               "unit": "%",
               "consensus": null,
               "actual": null,
