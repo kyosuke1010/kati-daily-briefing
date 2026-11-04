@@ -1,9 +1,267 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-11-03T20:54:27.415Z",
+  "builtAtUtc": "2026-11-04T20:49:02.288Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "4fed06fe9e2540b00681a7cf6284c49a5f537dbf140c82d3c0b34c9bc21c66a5",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-11-04T20:49:02.288Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-election-dollar",
+            "sourceUrl": "https://www.reuters.com/world/india/gold-firms-softer-oil-prices-us-midterm-results-awaited-2026-11-04/",
+            "retrievedAtUtc": "2026-11-04T20:48:13.000Z",
+            "verification": "reviewed",
+            "note": "Reuters本文の対象日、観測時刻、金現物の価格と騰落率を確認。"
+          },
+          {
+            "subjectId": "material:ism-services-october",
+            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/",
+            "retrievedAtUtc": "2026-11-04T20:46:39.000Z",
+            "verification": "reviewed",
+            "note": "公式10月報告の総合PMI、価格、雇用指数と9月比較値を確認。予想との差は未確認のため記載しない。"
+          },
+          {
+            "subjectId": "material:oil-election-iran",
+            "sourceUrl": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/",
+            "retrievedAtUtc": "2026-11-04T20:48:27.000Z",
+            "verification": "reviewed",
+            "note": "Reuters本文の11月4日の原油先物清算値、騰落率と背景を確認。"
+          },
+          {
+            "subjectId": "material:boj-minutes-upcoming",
+            "sourceUrl": "https://www.boj.or.jp/mopo/mpmsche_minu/index.htm",
+            "retrievedAtUtc": "2026-11-04T20:46:34.000Z",
+            "verification": "reviewed",
+            "note": "公式公表予定表で対象会合と11月5日08:50 JSTの公表予定を確認。未来の公表時刻を記事公開時刻として記載しない。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.boj.or.jp/mopo/mpmsche_minu/index.htm",
+            "retrievedAtUtc": "2026-11-04T20:46:34.000Z",
+            "verification": "reviewed",
+            "note": "公式日程の日時を確認し、UTC・日本時間へ換算。未確認の予想・前回値は補完しない。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bankofengland.co.uk/events/upcoming-events",
+            "retrievedAtUtc": "2026-11-04T20:46:09.000Z",
+            "verification": "reviewed",
+            "note": "公式日程の日時を確認し、UTC・日本時間へ換算。未確認の予想・前回値は補完しない。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-11-04T20:46:39.000Z",
+            "verification": "reviewed",
+            "note": "公式日程の日時を確認し、UTC・日本時間へ換算。未確認の予想・前回値は補完しない。"
+          },
+          {
+            "subjectId": "indicator:3",
+            "sourceUrl": "https://oui.doleta.gov/unemploy/archive.asp",
+            "retrievedAtUtc": "2026-11-04T20:46:09.000Z",
+            "verification": "reviewed",
+            "note": "米労働省の公式週間公表ルールを確認。木曜08:30 ESTを11月5日13:30 UTC・22:30 JSTへ換算。未公表の結果は記載しない。"
+          },
+          {
+            "subjectId": "indicator:4",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+            "retrievedAtUtc": "2026-11-04T20:46:39.000Z",
+            "verification": "reviewed",
+            "note": "公式日程の日時を確認し、UTC・日本時間へ換算。未確認の予想・前回値は補完しない。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-11-05-r1",
+          "dateJst": "2026-11-05",
+          "generatedAtUtc": "2026-11-04T20:49:02.287Z",
+          "period": {
+            "startUtc": "2026-11-03T15:00:00.000Z",
+            "endUtc": "2026-11-04T20:49:02.287Z"
+          },
+          "conclusion": [
+            "11月4日の金は米中間選挙後のドル安に支えられて上昇し、原油安も物価懸念を和らげ得る一方、米サービス業の高い価格指数は金利面の逆風になり得ます。",
+            "【推測】ドル安が続けば金の支え、米金利上昇は逆風となり得るため、本日08:50の日銀議事要旨、21:00の英金融政策、22:30の米生産性・コスト後の為替と金利に注目です。"
+          ],
+          "materials": [
+            {
+              "id": "gold-election-dollar",
+              "title": "金現物は上昇、選挙を巡るドル安が支援",
+              "fact": "Reutersによると、11月4日19:04 UTC（日本5日04:04）の金現物は3.4％高の1トロイオンス4,059.95ドルだった。米中間選挙後のドル下落が金を支えたと報じた。",
+              "outlook": "【推測】ドル安が続けば、他通貨を持つ買い手の金の購入負担が軽くなり、金価格を支える可能性がある。一方、選挙後の政策見通しが米金利やドルを押し上げる場合は、上昇が巻き戻される可能性がある。",
+              "sourceName": "Reuters",
+              "sourceUrl": "https://www.reuters.com/world/india/gold-firms-softer-oil-prices-us-midterm-results-awaited-2026-11-04/",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-11-04",
+              "retrievedAtUtc": "2026-11-04T20:48:13.000Z"
+            },
+            {
+              "id": "ism-services-october",
+              "title": "米サービス業PMIは54.5、雇用は上向く",
+              "fact": "ISMの10月サービス業PMIは54.5で、9月の54.9から低下したが、拡大・縮小の境目となる50を上回った。価格指数は74.0から73.0へ低下し、雇用指数は50.1から51.4へ上昇した。発表は11月4日15:00 UTC（日本5日00:00）。",
+              "outlook": "【推測】サービス業の拡大と高い価格指数が米金利の高止まりにつながれば、金には上値を抑える材料となり得る。一方、PMIと価格指数の低下が物価圧力の緩和と受け止められ、米金利が下がる場合には金の支えとなり得る。",
+              "sourceName": "ISM",
+              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/",
+              "publishedAtUtc": "2026-11-04T15:00:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-11-04T20:46:39.000Z"
+            },
+            {
+              "id": "oil-election-iran",
+              "title": "原油先物は大幅安、中東情勢の見通しに注目",
+              "fact": "Reutersによると、11月4日の原油先物清算値はBrentが1バレル94.62ドルで8.7％安、WTIが88.12ドルで8.3％安だった。米中間選挙後に中東での戦争終結が早まるとの観測が広がったと報じた。",
+              "outlook": "【推測】原油安が続き物価懸念を和らげれば、米金利低下を通じて金の支えとなり得る。一方、緊張緩和による安全資産需要の後退は金の逆風にもなるため、外交情勢と金利の反応を見たい。",
+              "sourceName": "Reuters",
+              "sourceUrl": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-11-04",
+              "retrievedAtUtc": "2026-11-04T20:48:27.000Z"
+            },
+            {
+              "id": "boj-minutes-upcoming",
+              "title": "日銀議事要旨は本日08:50、円建て金は為替にも注目",
+              "fact": "日銀の公式日程では、9月17～18日の金融政策決定会合の議事要旨は11月5日08:50 JSTに公表予定。これは過去の会合内容の公表であり、本日の新たな政策決定ではない。原稿作成時点では公表前で、内容は未確認。",
+              "outlook": "【推測】議事要旨が追加利上げへの見方を強めて円高につながれば、ドル建て金が横ばいでも円換算の金価格には下押し圧力となり得る。一方、慎重な姿勢が意識されて円安が進む場合には、円建て金価格の支えとなり得る。",
+              "sourceName": "日本銀行",
+              "sourceUrl": "https://www.boj.or.jp/mopo/mpmsche_minu/index.htm",
+              "publishedAtUtc": null,
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-11-04T20:46:34.000Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "日銀金融政策決定会合・9月17～18日分議事要旨（日本11/5 08:50）",
+              "scheduledAtUtc": "2026-11-04T23:50:00.000Z",
+              "sourceName": "日本銀行",
+              "sourceUrl": "https://www.boj.or.jp/mopo/mpmsche_minu/index.htm",
+              "retrievedAtUtc": "2026-11-04T20:46:34.000Z",
+              "unit": "該当なし",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "英金融政策委員会（MPC）政策発表（英11/5 12:00 GMT／日本11/5 21:00）",
+              "scheduledAtUtc": "2026-11-05T12:00:00.000Z",
+              "sourceName": "イングランド銀行",
+              "sourceUrl": "https://www.bankofengland.co.uk/events/upcoming-events",
+              "retrievedAtUtc": "2026-11-04T20:46:09.000Z",
+              "unit": "該当なし",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米労働生産性・単位労働コスト・2026年7～9月期速報（米11/5 08:30 EST／日本11/5 22:30）",
+              "scheduledAtUtc": "2026-11-05T13:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-11-04T20:46:39.000Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米新規失業保険申請件数（米11/5 08:30 EST／日本11/5 22:30）",
+              "scheduledAtUtc": "2026-11-05T13:30:00.000Z",
+              "sourceName": "米労働省",
+              "sourceUrl": "https://oui.doleta.gov/unemploy/archive.asp",
+              "retrievedAtUtc": "2026-11-04T20:46:09.000Z",
+              "unit": "件",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米雇用統計・2026年10月（米11/6 08:30 EST／日本11/6 22:30）",
+              "scheduledAtUtc": "2026-11-06T13:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched.htm",
+              "retrievedAtUtc": "2026-11-04T20:46:39.000Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "cd14dd9ed46dbaa4db7d4f47fc670142a712ba239f07b16b018f348e871934ff",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
