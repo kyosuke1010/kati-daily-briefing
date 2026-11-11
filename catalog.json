@@ -1,9 +1,228 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-11-10T20:46:56.752Z",
+  "builtAtUtc": "2026-11-11T20:51:04.735Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "997647212fa0c700bca0dd10457dfb50f2ba24eca1d8f69119b0433b89334ab2",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-11-11T20:51:04.734Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-extends-decline",
+            "sourceUrl": "https://sa.marketscreener.com/news/gold-falls-as-hot-inflation-figures-higher-dollar-weigh-ce785edbde8ef32c",
+            "retrievedAtUtc": "2026-11-11T20:46:36.544Z",
+            "verification": "reviewed",
+            "note": "Reuters転載本文で現物観測時計と12月限清算を区別し確認。更新時刻は+03表示からUTCへ換算。"
+          },
+          {
+            "subjectId": "material:dollar-strengthens-yen-weakens",
+            "sourceUrl": "https://live.euronext.com/en/financial-news/dollar-advances-markets-price-december-fed-rate-hike",
+            "retrievedAtUtc": "2026-11-11T20:45:43.081Z",
+            "verification": "reviewed",
+            "note": "Reuters転載本文の為替数値と背景を確認。個別観測時計不明のため価格欄は未確認。"
+          },
+          {
+            "subjectId": "material:oil-rebounds-supply-risk",
+            "sourceUrl": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+            "retrievedAtUtc": "2026-11-11T20:46:36.544Z",
+            "verification": "reviewed",
+            "note": "Reuters更新本文でBrent清算値とイラン側発言を確認。WTIの清算時点は確定できず不採用。"
+          },
+          {
+            "subjectId": "material:eia-inventory-delayed",
+            "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+            "retrievedAtUtc": "2026-11-11T20:43:44.500Z",
+            "verification": "reviewed",
+            "note": "公式予定本文で対象期間と公表日時を確認し、ESTからUTC・JSTへ換算。"
+          },
+          {
+            "subjectId": "material:ppi-next-inflation-test",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+            "retrievedAtUtc": "2026-11-11T20:44:09.813Z",
+            "verification": "reviewed",
+            "note": "公式予定本文で対象期間と公表日時を確認し、ESTからUTC・JSTへ換算。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+            "retrievedAtUtc": "2026-11-11T20:43:44.500Z",
+            "verification": "reviewed",
+            "note": "公式予定本文の対象期間と公表日時を確認。ESTからUTC・JSTへ換算し未確認数値はnull。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+            "retrievedAtUtc": "2026-11-11T20:44:09.813Z",
+            "verification": "reviewed",
+            "note": "公式予定本文の対象期間と公表日時を確認。ESTからUTC・JSTへ換算し未確認数値はnull。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-11-12-r1",
+          "dateJst": "2026-11-12",
+          "generatedAtUtc": "2026-11-11T20:51:04.732Z",
+          "period": {
+            "startUtc": "2026-11-10T15:00:00.000Z",
+            "endUtc": "2026-11-11T20:47:46.622Z"
+          },
+          "conclusion": [
+            "米11日の金は続落し、米利上げ観測を背景としたドル高が重荷と報じられました。",
+            "【推測】ドル高・金利の先高観は金の逆風ですが、日本13日未明の米石油週報で供給不安が和らぎ、同日22:30の米PPIが物価圧力の緩和を示せば反発を支える可能性があります。"
+          ],
+          "materials": [
+            {
+              "id": "gold-extends-decline",
+              "title": "金は続落、ドル高と米利上げ観測が重荷",
+              "fact": "Reutersの11月11日更新本文では、金現物は18:51 UTC（12日03:51 JST）時点で1トロイオンス3,986.79ドル、1.1％安だった。米金先物12月限は4,000.50ドル、0.7％安で清算した。現物は記事時点の途中値、先物は別商品の清算値であり、今朝の現在値ではない。",
+              "outlook": "【推測】米利上げ観測とドル高が続けば、利息を生まない金の保有コストと他通貨での割高感が重なり、下押し圧力が残り得る。一方、次の物価指標が鈍化しドルの上昇が止まれば、金の買い戻しにつながる余地がある。",
+              "sourceName": "Reuters（MarketScreener掲載）",
+              "sourceUrl": "https://sa.marketscreener.com/news/gold-falls-as-hot-inflation-figures-higher-dollar-weigh-ce785edbde8ef32c",
+              "publishedAtUtc": "2026-11-11T19:15:00.000Z",
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-11-11T20:46:36.544Z"
+            },
+            {
+              "id": "dollar-strengthens-yen-weakens",
+              "title": "ドル円159円台、ドル高は円建て金にも影響",
+              "fact": "11月11日付ReutersのEuronext掲載本文では、ドル円は0.69％高の159.83円、ドル指数は0.63％高の102.85だった。米物価指標と当局者発言を受けた利上げ観測が背景と報じられた。個別の観測時刻が不明な記事内参考値で、終値や現在値とは扱わない。",
+              "outlook": "【推測】ドル高が続けばドル建て金の上値を抑えやすいが、円安は円換算した金価格の下落を和らげる可能性がある。ドルの上昇一服と円高が同時に起きる場合には、ドル建て金の反発が円建て価格にそのまま表れるとは限らない。",
+              "sourceName": "Reuters（Euronext掲載）",
+              "sourceUrl": "https://live.euronext.com/en/financial-news/dollar-advances-markets-price-december-fed-rate-hike",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-11-11",
+              "retrievedAtUtc": "2026-11-11T20:45:43.081Z"
+            },
+            {
+              "id": "oil-rebounds-supply-risk",
+              "title": "原油は反発、イラン交渉と供給リスクが焦点",
+              "fact": "11月11日のReuters更新本文では、Brent原油先物は1バレル92.76ドル、前日比1.39％高で清算した。イランの安全保障責任者が濃縮核物質の国外搬出を認めないと述べたことを受け、記事は供給不安を反発の背景に挙げた。WTIの確定清算値は今回確認できていない。",
+              "outlook": "【推測】原油高が物価と米利上げへの警戒を強め、ドル高を伴う場合は金には逆風となり得る。一方、交渉の停滞や輸送障害への懸念は金の安全資産需要も支えるため、原油だけでなくドル・金利の反応が重要になる。",
+              "sourceName": "Reuters",
+              "sourceUrl": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-11-11",
+              "retrievedAtUtc": "2026-11-11T20:46:36.544Z"
+            },
+            {
+              "id": "eia-inventory-delayed",
+              "title": "米石油週報は祝日で延期、日本13日未明に",
+              "fact": "EIA公式日程では、11月6日終了週の米石油週報はVeterans Dayに伴い、12日12:00 EST（13日02:00 JST）に公表予定。通常の水曜10:30米東部時間とは異なり、今回の在庫結果はまだ公表前である。",
+              "outlook": "【推測】在庫増などで原油が下がり物価・利上げへの警戒が和らげば、金には支えとなり得る。逆に供給逼迫を示す結果で原油とドルが上昇する場合は、金への逆風が強まる可能性がある。",
+              "sourceName": "米エネルギー情報局（EIA）",
+              "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+              "publishedAtUtc": null,
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-11-11T20:43:44.500Z"
+            },
+            {
+              "id": "ppi-next-inflation-test",
+              "title": "次の米物価材料は13日夜のPPI",
+              "fact": "BLS公式予定表では、10月の米生産者物価指数（PPI）は11月13日08:30 EST（同日22:30 JST）に公表予定。予想・前回・結果の数値は今回確認できていない。",
+              "outlook": "【推測】生産段階の物価圧力が和らぎ、米金利やドルの先高観が後退すれば金には追い風となり得る。反対に強い結果が追加利上げ観測を強めれば、ドルと金利を通じて金の戻りを抑える可能性がある。",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+              "publishedAtUtc": null,
+              "publishedDate": null,
+              "retrievedAtUtc": "2026-11-11T20:44:09.813Z"
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米石油週報・11月6日終了週（米11/12 12:00 EST／日本11/13 02:00）",
+              "scheduledAtUtc": "2026-11-12T17:00:00.000Z",
+              "sourceName": "米エネルギー情報局（EIA）",
+              "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+              "retrievedAtUtc": "2026-11-11T20:43:44.500Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米生産者物価指数（PPI）・2026年10月（米11/13 08:30 EST／日本11/13 22:30）",
+              "scheduledAtUtc": "2026-11-13T13:30:00.000Z",
+              "sourceName": "米労働統計局（BLS）",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+              "retrievedAtUtc": "2026-11-11T20:44:09.813Z",
+              "unit": "複数指標",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "5c05b5077b116d383cd77bf693a1b87d273f4a20139d6287e1c30676b5ded6b4",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
@@ -6787,225 +7006,6 @@
               "sourceName": "BLS",
               "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
               "retrievedAtUtc": "2026-10-12T20:47:11.261Z",
-              "unit": "%",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            }
-          ],
-          "prices": [
-            {
-              "id": "XAUUSD",
-              "label": "金現物",
-              "value": null,
-              "unit": "USD/トロイオンス",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "USDJPY",
-              "label": "米ドル／円",
-              "value": null,
-              "unit": "JPY/USD",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "DXY",
-              "label": "米ドル指数",
-              "value": null,
-              "unit": "指数",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "UST10Y",
-              "label": "米10年国債利回り",
-              "value": null,
-              "unit": "%",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "WTI",
-              "label": "WTI原油",
-              "value": null,
-              "unit": "USD/バレル",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            }
-          ],
-          "revisionOf": null
-        }
-      }
-    },
-    {
-      "role": "history",
-      "sha256": "0d69fcc827734e964747d6a8819392f0b4f5e14d975d108a37461b2900d7d61c",
-      "manuscript": {
-        "kind": "kati-brief-manuscript-v1",
-        "contentKind": "real",
-        "status": "approved",
-        "revision": 1,
-        "approval": {
-          "approvedAtUtc": "2026-10-11T20:50:53.826Z",
-          "reference": "Editorial review under owner-authorized daily publication workflow"
-        },
-        "evidence": [
-          {
-            "subjectId": "material:gold-friday-reference",
-            "sourceUrl": "https://uk.marketscreener.com/news/gold-hits-one-week-high-heads-for-weekly-gain-on-bargain-hunting-ce785ddcd881f024",
-            "retrievedAtUtc": "2026-10-11T20:50:39.566Z",
-            "verification": "reviewed",
-            "note": "Reuters本文で米9日の現物途中値・観測時刻・前日比を再確認。終値や週明け価格とは扱わない。"
-          },
-          {
-            "subjectId": "material:iea-diesel-release",
-            "sourceUrl": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
-            "retrievedAtUtc": "2026-10-11T20:50:31.362Z",
-            "verification": "reviewed",
-            "note": "IEA公式声明で既存放出の前倒しと追加放出の検討要請を確認。数量決定とは扱わない。"
-          },
-          {
-            "subjectId": "material:ukraine-energy-ceasefire",
-            "sourceUrl": "https://www.aol.com/articles/ukraine-awaits-details-ceasefire-proposals-182118000.html",
-            "retrievedAtUtc": "2026-10-11T20:50:39.566Z",
-            "verification": "reviewed",
-            "note": "Reuters本文のウクライナ側発言と18:21 UTC配信時刻を確認。停戦実行は未確認。"
-          },
-          {
-            "subjectId": "material:iran-response",
-            "sourceUrl": "https://apnews.com/article/baa06588f3ebe6dad93695581f68d3c1",
-            "retrievedAtUtc": "2026-10-11T20:50:31.362Z",
-            "verification": "reviewed",
-            "note": "AP配信本文でイラン側評価を確認。交渉の合意成立や市場反応は未確認。"
-          },
-          {
-            "subjectId": "material:cpi-week-ahead",
-            "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
-            "retrievedAtUtc": "2026-10-11T20:50:31.362Z",
-            "verification": "reviewed",
-            "note": "BLS公式の10月日程で9月対象CPI・PPIの公表予定と米東部08:30を確認。"
-          },
-          {
-            "subjectId": "indicator:0",
-            "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
-            "retrievedAtUtc": "2026-10-11T20:50:31.362Z",
-            "verification": "reviewed",
-            "note": "BLS公式の9月対象の予定を確認。米東部夏時間08:30を12:30 UTC・21:30 JSTへ換算。"
-          },
-          {
-            "subjectId": "indicator:1",
-            "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
-            "retrievedAtUtc": "2026-10-11T20:50:31.362Z",
-            "verification": "reviewed",
-            "note": "BLS公式の9月対象の予定を確認。米東部夏時間08:30を12:30 UTC・21:30 JSTへ換算。"
-          }
-        ],
-        "record": {
-          "id": "kati-daily-2026-10-12-r1",
-          "dateJst": "2026-10-12",
-          "generatedAtUtc": "2026-10-11T20:50:53.824Z",
-          "period": {
-            "startUtc": "2026-10-09T00:00:00.000Z",
-            "endUtc": "2026-10-11T20:50:53.824Z"
-          },
-          "conclusion": [
-            "【推測】金は燃料供給の改善からドル・金利が下がれば支えられますが、週末の停戦表明は実行が未確認で、イラン交渉の停滞による燃料高・金利高は重荷です。",
-            "【推測】まず週明けの原油・ドルの反応、次に14日21:30 JSTの米CPIが焦点で、物価鈍化と実質金利低下なら金に追い風、逆の反応なら反発を抑える材料になります。"
-          ],
-          "materials": [
-            {
-              "id": "gold-friday-reference",
-              "title": "金は反発して週明けへ、まずドル・金利の反応に注目",
-              "fact": "直近営業日の米10月9日、金現物は19:29 UTC（10日04:29 JST）時点で1トロイオンス4,194.36ドル、1.5%高でした。Reutersは週半ばの2か月ぶり安値後の買い戻しを報じています。これは金曜の途中値で、週明けの値動きはまだ確認できていません。",
-              "outlook": "【推測】週末の供給対策が燃料価格や米金利の低下につながれば、金の反発を支える条件になります。一方、ドル高と米実質金利上昇が再び強まれば、買い戻しによる上昇は抑えられやすくなります。",
-              "sourceName": "Reuters",
-              "sourceUrl": "https://uk.marketscreener.com/news/gold-hits-one-week-high-heads-for-weekly-gain-on-bargain-hunting-ce785ddcd881f024",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-09",
-              "retrievedAtUtc": "2026-10-11T20:50:39.566Z"
-            },
-            {
-              "id": "iea-diesel-release",
-              "title": "IEAが軽油備蓄の追加放出を検討要請",
-              "fact": "IEAは10月11日、加盟国に対し、3月に約束した備蓄放出の未実施分を軽油優先で前倒しできるか検討し、追加放出の必要性も評価するよう求めました。追加分の規模・時期が決定したという発表ではなく、15日の理事会で対応を点検する方針です。",
-              "outlook": "【推測】軽油不足が和らぎインフレ懸念や米金利が下がれば、金には追い風になります。ただし要請だけで供給が増えたわけではなく、実際の放出量と燃料価格が下がらなければ金利面の重荷は残ります。",
-              "sourceName": "IEA",
-              "sourceUrl": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-11",
-              "retrievedAtUtc": "2026-10-11T20:50:31.362Z"
-            },
-            {
-              "id": "ukraine-energy-ceasefire",
-              "title": "エネルギー停戦表明、実効性はなお不透明",
-              "fact": "10月11日のReuters報道によると、トランプ氏のエネルギー停戦表明を受け、ゼレンスキー氏は停戦を支持しつつ米側の詳細を待つと説明しました。同氏はロシアによるエネルギー施設への攻撃が続いているとも述べており、停戦が実行されたとは確認できません。",
-              "outlook": "【推測】攻撃停止が実現すれば供給不安の後退で金の逃避需要は弱まる一方、燃料安から金利が下がれば金を支える力も働きます。攻撃継続なら緩和期待は後退するため、週明けの原油とドルの反応が方向を見分ける手掛かりです。",
-              "sourceName": "Reuters",
-              "sourceUrl": "https://www.aol.com/articles/ukraine-awaits-details-ceasefire-proposals-182118000.html",
-              "publishedAtUtc": "2026-10-11T18:21:00.000Z",
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-11T20:50:39.566Z"
-            },
-            {
-              "id": "iran-response",
-              "title": "イラン、米側の返答は不十分との立場",
-              "fact": "10月11日配信のAP報道によると、イランの国家安全保障当局者は、戦争終結とホルムズ海峡の全面再開に向けた提案への米側の返答を不十分と評価しました。一部条件は受け入れられた一方、なお不明確な点が残るとしています。",
-              "outlook": "【推測】交渉停滞は供給不安と安全資産需要を通じて金を支える可能性があります。ただし燃料高が利上げ観測やドル高を強める場合は逆風も大きく、地政学的な緊張だけで金高とは判断できません。",
-              "sourceName": "AP",
-              "sourceUrl": "https://apnews.com/article/baa06588f3ebe6dad93695581f68d3c1",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-11",
-              "retrievedAtUtc": "2026-10-11T20:50:31.362Z"
-            },
-            {
-              "id": "cpi-week-ahead",
-              "title": "今週の山場は米CPIとPPI、金利の再評価へ",
-              "fact": "BLSの10月予定では、米9月CPIは14日、同PPIは15日の各08:30米東部時間（各21:30 JST）に公表予定です。12日に同局の主要経済指標の公表予定は掲載されておらず、週初は週末のエネルギー関連ニュースへの市場反応が注目点になります。",
-              "outlook": "【推測】CPIやPPIの鈍化が利上げ観測を弱め、ドル・実質金利が下がれば金には上向きの材料です。反対に物価圧力が強く金利が上がれば金を圧迫するため、発表後は数値と金利・為替の反応を合わせて見る局面です。",
-              "sourceName": "BLS",
-              "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
-              "publishedAtUtc": null,
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-11T20:50:31.362Z"
-            }
-          ],
-          "indicators": [
-            {
-              "name": "米9月消費者物価指数（CPI）",
-              "scheduledAtUtc": "2026-10-14T12:30:00.000Z",
-              "sourceName": "BLS",
-              "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
-              "retrievedAtUtc": "2026-10-11T20:50:31.362Z",
-              "unit": "%",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "米9月生産者物価指数（PPI）",
-              "scheduledAtUtc": "2026-10-15T12:30:00.000Z",
-              "sourceName": "BLS",
-              "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched.htm",
-              "retrievedAtUtc": "2026-10-11T20:50:31.362Z",
               "unit": "%",
               "consensus": null,
               "actual": null,
