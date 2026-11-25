@@ -1,9 +1,209 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-11-24T20:45:00.181Z",
+  "builtAtUtc": "2026-11-25T20:47:14.426Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "778693e7237bf1e10aa4ae0b53af8139e64efa6975405b4c7f72a1347f0aa4e3",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-11-25T20:47:14.421Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:gold-fx",
+            "sourceUrl": "https://www.kitco.com/",
+            "retrievedAtUtc": "2026-11-25T20:46:04.000Z",
+            "verification": "reviewed",
+            "note": "同社の時刻付き参考値で金の単位、ドル円の仲値と変化率を確認。"
+          },
+          {
+            "subjectId": "material:us-core-pce",
+            "sourceUrl": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026",
+            "retrievedAtUtc": "2026-11-25T20:45:21.000Z",
+            "verification": "reviewed",
+            "note": "BEA本文で10月の総合・コアの前年比と前月比、9月の前月比を確認。"
+          },
+          {
+            "subjectId": "material:us-gdp",
+            "sourceUrl": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf",
+            "retrievedAtUtc": "2026-11-25T20:45:21.000Z",
+            "verification": "reviewed",
+            "note": "BEAの第2次推計PDFで前期比年率、改定幅と改定項目を確認。"
+          },
+          {
+            "subjectId": "material:beige-book",
+            "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/files/BeigeBook_20261125.pdf",
+            "retrievedAtUtc": "2026-11-25T20:45:31.000Z",
+            "verification": "reviewed",
+            "note": "FRB報告書で地域別の成長、全体の消費と物価を確認。"
+          },
+          {
+            "subjectId": "material:thanksgiving-nyse",
+            "sourceUrl": "https://www.nyse.com/trade/hours-calendars",
+            "retrievedAtUtc": "2026-11-25T14:47:00.000Z",
+            "verification": "reviewed",
+            "note": "NYSEの公式日程で休場日と早仕舞いを確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.stat.go.jp/english/data/cpi/1582.htm",
+            "retrievedAtUtc": "2026-11-25T20:46:43.000Z",
+            "verification": "reviewed",
+            "note": "統計局の公表日程で日付、同局Q&Aで東京都区部速報の公表時刻を確認。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-11-26-r1",
+          "dateJst": "2026-11-26",
+          "generatedAtUtc": "2026-11-25T20:47:14.418Z",
+          "period": {
+            "startUtc": "2026-11-24T20:45:00.175Z",
+            "endUtc": "2026-11-25T20:46:43.000Z"
+          },
+          "conclusion": [
+            "金は持ち直し、26日05:42（日本時間）のKitco参考値では1トロイオンス3,568.00ドル、0.33％高でした。",
+            "米GDPの上方改定とコア物価の粘りは金の重荷になり得ますが、米感謝祭で取引が薄くなりやすいなか、ドルと米金利が反発するかが焦点です。"
+          ],
+          "materials": [
+            {
+              "id": "gold-fx",
+              "title": "金が持ち直し、ドル円は159円台",
+              "fact": "Kitcoの参考値は26日05:42時点で、金が1トロイオンス3,568.00ドル（0.33％高）、ドル円の仲値が159.2150円（0.03％安）でした。",
+              "outlook": "【推測】金は持ち直しましたが、取引が薄い時間帯では反発が続くとは限りません。ドルと米金利がそろって上がれば、上値が抑えられやすくなります。",
+              "sourceName": "Kitco",
+              "sourceUrl": "https://www.kitco.com/",
+              "retrievedAtUtc": "2026-11-25T20:46:04.000Z",
+              "publishedAtUtc": null,
+              "publishedDate": null
+            },
+            {
+              "id": "us-core-pce",
+              "title": "米コアPCE、月次の伸びは鈍らず",
+              "fact": "25日22:30公表の10月PCE物価は、総合・コアとも前月比0.3％上昇し、前年比は総合3.8％、コア3.3％でした。9月の前月比は総合0.5％、コア0.3％でした。",
+              "outlook": "【推測】総合は月次で鈍りましたが、コアの伸びは変わっていません。米金利が高止まりする見方が強まれば、利息のつかない金には逆風です。",
+              "sourceName": "BEA",
+              "sourceUrl": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026",
+              "retrievedAtUtc": "2026-11-25T20:45:21.000Z",
+              "publishedAtUtc": "2026-11-25T13:30:00.000Z",
+              "publishedDate": null
+            },
+            {
+              "id": "us-gdp",
+              "title": "米成長率が上方改定",
+              "fact": "25日22:30公表の7〜9月期実質GDP第2次推計は前期比年率4.3％で、速報値の3.4％から上方改定されました。主因は投資と個人消費の上方改定でした。",
+              "outlook": "【推測】成長の底堅さがドルや米金利を押し上げるなら、金には下押し材料です。四半期の改定値なので、この数字だけで足元の相場の原因とは断定できません。",
+              "sourceName": "BEA",
+              "sourceUrl": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf",
+              "retrievedAtUtc": "2026-11-25T20:45:21.000Z",
+              "publishedAtUtc": "2026-11-25T13:30:00.000Z",
+              "publishedDate": null
+            },
+            {
+              "id": "beige-book",
+              "title": "地区連銀報告、消費は横ばい",
+              "fact": "26日04:00公表のベージュブックでは、12地区中8地区が小幅〜緩やかな成長、4地区が横ばいでした。全体の消費はほぼ横ばいで、物価は緩やかに上昇しました。",
+              "outlook": "【推測】消費の弱さで米金利が下がるなら金を支えやすくなります。一方、コスト上昇が続くと利下げ期待は強まりにくくなります。",
+              "sourceName": "FRB",
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/files/BeigeBook_20261125.pdf",
+              "retrievedAtUtc": "2026-11-25T20:45:31.000Z",
+              "publishedAtUtc": "2026-11-25T19:00:00.000Z",
+              "publishedDate": null
+            },
+            {
+              "id": "thanksgiving-nyse",
+              "title": "米感謝祭、NYSE株式は休場",
+              "fact": "NYSE株式の通常取引は米国時間26日が休場で、27日は13:00 EST（日本時間28日03:00）に終了します。金CFDの配信時刻とは別です。",
+              "outlook": "【推測】米時間の参加者が減ると、同じ規模の注文でも金が振れやすくなります。休場前後の値動きが通常の取引時間帯でも続くかに注目します。",
+              "sourceName": "NYSE",
+              "sourceUrl": "https://www.nyse.com/trade/hours-calendars",
+              "retrievedAtUtc": "2026-11-25T14:47:00.000Z",
+              "publishedAtUtc": null,
+              "publishedDate": null
+            }
+          ],
+          "indicators": [
+            {
+              "name": "東京都区部11月CPI・速報（11/27 08:30 JST）",
+              "scheduledAtUtc": "2026-11-26T23:30:00.000Z",
+              "unit": "前年比（％）",
+              "sourceName": "総務省統計局",
+              "sourceUrl": "https://www.stat.go.jp/english/data/cpi/1582.htm",
+              "retrievedAtUtc": "2026-11-25T20:46:43.000Z",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": null,
+              "unit": "USD/トロイオンス",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": null,
+              "unit": "JPY/USD",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "37a5cc20afad9c9abd613fbe8dc7c016ffcf03a224b8facca5d5d81ac8034770",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
@@ -6832,244 +7032,6 @@
               "sourceName": "米商務省経済分析局（BEA）",
               "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
               "retrievedAtUtc": "2026-10-26T20:42:33.920Z",
-              "unit": "％",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            }
-          ],
-          "prices": [
-            {
-              "id": "XAUUSD",
-              "label": "金現物",
-              "value": null,
-              "unit": "USD/トロイオンス",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "USDJPY",
-              "label": "ドル／円",
-              "value": null,
-              "unit": "JPY/USD",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "DXY",
-              "label": "ドル指数",
-              "value": null,
-              "unit": "指数",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "UST10Y",
-              "label": "米10年債利回り",
-              "value": null,
-              "unit": "％",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "WTI",
-              "label": "WTI原油",
-              "value": null,
-              "unit": "USD/バレル",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            }
-          ],
-          "revisionOf": null
-        }
-      }
-    },
-    {
-      "role": "history",
-      "sha256": "173014e688cb3f529affecdbfd326c765c938dd45dd421ef3bbbc98ce01c0c46",
-      "manuscript": {
-        "kind": "kati-brief-manuscript-v1",
-        "contentKind": "real",
-        "status": "approved",
-        "revision": 1,
-        "approval": {
-          "approvedAtUtc": "2026-10-25T20:47:55.212Z",
-          "reference": "Editorial review under owner-authorized daily publication workflow"
-        },
-        "evidence": [
-          {
-            "subjectId": "material:sunday-saudi-update",
-            "sourceUrl": "https://sa.marketscreener.com/news/saudi-says-riyadh-airport-partly-reopens-despite-renewed-houthi-threats-ce785cdfd18af422",
-            "retrievedAtUtc": "2026-10-25T20:45:36.000Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:latest-gold-session",
-            "sourceUrl": "https://www.marketscreener.com/news/gold-set-for-steep-weekly-loss-as-rising-oil-prices-bolster-fed-rate-hike-bets-ce785cdfda80f22c",
-            "retrievedAtUtc": "2026-10-25T20:44:49.000Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:oil-reference",
-            "sourceUrl": "https://sa.marketscreener.com/news/brent-crude-hits-more-than-five-month-high-on-concern-over-middle-east-escalation-ce785cded18bf321",
-            "retrievedAtUtc": "2026-10-25T20:45:32.000Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:fx-reference",
-            "sourceUrl": "https://www.marketscreener.com/news/euro-sinks-on-french-debt-worries-yen-gains-on-ai-rout-ce785cdfda8ff222",
-            "retrievedAtUtc": "2026-10-25T20:45:11.000Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:fomc-week",
-            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-            "retrievedAtUtc": "2026-10-25T20:44:54.665Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "indicator:0",
-            "sourceUrl": "https://www.boj.or.jp/en/about/calendar/",
-            "retrievedAtUtc": "2026-10-25T20:45:46.806Z",
-            "verification": "reviewed",
-            "note": "公式予定の10月27日08:50 JSTを確認し、前日23:50 UTCへ換算。"
-          },
-          {
-            "subjectId": "indicator:1",
-            "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
-            "retrievedAtUtc": "2026-10-25T20:44:54.665Z",
-            "verification": "reviewed",
-            "note": "公式発表の次回予定欄に10月29日08:30 EDTを確認。12:30 UTC／21:30 JSTへ換算。"
-          },
-          {
-            "subjectId": "indicator:2",
-            "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-            "retrievedAtUtc": "2026-10-25T20:44:54.665Z",
-            "verification": "reviewed",
-            "note": "公式発表の次回予定欄に10月29日08:30 EDTを確認。12:30 UTC／21:30 JSTへ換算。"
-          }
-        ],
-        "record": {
-          "id": "kati-daily-2026-10-26-r1",
-          "dateJst": "2026-10-26",
-          "generatedAtUtc": "2026-10-25T20:47:55.209Z",
-          "period": {
-            "startUtc": "2026-10-22T15:00:00.000Z",
-            "endUtc": "2026-10-25T20:47:55.209Z"
-          },
-          "conclusion": [
-            "週末のサウジでの攻撃継続は金の安全資産需要を支え得る一方、前営業日の原油高・ドル高が続けば物価と金利の面から重荷になり得る。",
-            "月曜早朝時点では週末報道への金の反応は未確認で、まず市場再開後の動き、次に27～28日のFOMCと29日21:30 JSTの米GDP・PCE関連統計を注視したい。"
-          ],
-          "materials": [
-            {
-              "id": "sunday-saudi-update",
-              "title": "週末の新材料：リヤド空港は一部再開、攻撃の脅威は継続",
-              "fact": "10月25日のReuters報道では、サウジ当局はリヤド空港の2ターミナルが一部運航を再開したと説明した。一方、サウジ主導連合は新たなミサイル・ドローンの迎撃を発表し、フーシ派も攻撃の警告を続けた。24日の石油施設攻撃の主張にサウジ当局は直接コメントしておらず、この報道では石油供給の実害や週明けの金相場の反応は確認できない。",
-              "outlook": "【推測】緊張の継続は金の安全資産需要を支え得る一方、空港の一部再開だけで地域全体のリスク低下とは判断できない。原油高が米金利・ドル高へ波及すれば金には逆風にもなるため、週明けは石油施設の被害確認と市場再開後の反応が焦点になる。",
-              "sourceName": "Reuters（MarketScreener掲載）",
-              "sourceUrl": "https://sa.marketscreener.com/news/saudi-says-riyadh-airport-partly-reopens-despite-renewed-houthi-threats-ce785cdfd18af422",
-              "publishedAtUtc": "2026-10-25T13:23:00.000Z",
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-25T20:45:36.000Z"
-            },
-            {
-              "id": "latest-gold-session",
-              "title": "前営業日23日の金：12月限は4,007.90ドルで清算",
-              "fact": "10月23日のReuters記事では、米金先物12月限は前日比1.3％安の4,007.90ドル／トロイオンスで清算された。金現物は同日15:20 UTC（24日00:20 JST）時点で0.6％安の3,998.35ドル。いずれも週明け前の参考値で、現物の終値や26日朝の現在値ではない。",
-              "outlook": "【推測】エネルギー高が物価・金利上昇への警戒を強める局面では、利息を生まない金の保有コストが重荷となる。週末の緊張で安全資産需要が優勢になるかは、金だけでなく米金利とドルが同時にどちらへ動くかで見極めたい。",
-              "sourceName": "Reuters（MarketScreener掲載）",
-              "sourceUrl": "https://www.marketscreener.com/news/gold-set-for-steep-weekly-loss-as-rising-oil-prices-bolster-fed-rate-hike-bets-ce785cdfda80f22c",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-23",
-              "retrievedAtUtc": "2026-10-25T20:44:49.000Z"
-            },
-            {
-              "id": "oil-reference",
-              "title": "原油は高値圏で週末入り：WTI清算値103.27ドル",
-              "fact": "10月23日のReuters報道による先物清算値は、WTIが前日比3.80ドル高の103.27ドル／バレル、Brentが3.55ドル高の116.72ドル／バレルだった。これらは23日の取引結果であり、25日の追加報道への市場反応を示すものではない。",
-              "outlook": "【推測】原油高が続けば物価の粘着性と高金利の長期化が意識され、金の上値を抑え得る。反対に供給障害への不安が安全資産需要を強める経路もあるため、原油上昇だけで金の方向を決めず、米金利の追随を確認したい。",
-              "sourceName": "Reuters（MarketScreener掲載）",
-              "sourceUrl": "https://sa.marketscreener.com/news/brent-crude-hits-more-than-five-month-high-on-concern-over-middle-east-escalation-ce785cded18bf321",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-23",
-              "retrievedAtUtc": "2026-10-25T20:45:32.000Z"
-            },
-            {
-              "id": "fx-reference",
-              "title": "23日の為替：ドル指数上昇、ドル円は156.9円",
-              "fact": "10月23日の更新後のReuters記事は、ドル指数を0.25％高の101.82、ドル円を156.9円／ドルと報じた。記事に厳密な価格観測時刻は示されていないため、前営業日の報道値として扱い、公式終値や26日の現在値とは区別する。",
-              "outlook": "【推測】ドル高が続けば、他通貨の保有者にとってドル建て金が割高となり、需要を抑えやすい。円建て金はドル建て金とドル円の双方に左右されるため、週明けに円高が進む場合は円換算価格への下押しにも注意したい。",
-              "sourceName": "Reuters（MarketScreener掲載）",
-              "sourceUrl": "https://www.marketscreener.com/news/euro-sinks-on-french-debt-worries-yen-gains-on-ai-rout-ce785cdfda8ff222",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-23",
-              "retrievedAtUtc": "2026-10-25T20:45:11.000Z"
-            },
-            {
-              "id": "fomc-week",
-              "title": "今週の焦点：米国日付27～28日のFOMC",
-              "fact": "FRBの公式カレンダーでは、次回FOMCは米国日付10月27～28日で、28日に記者会見が予定されている。政策判断はまだ発表されておらず、週明けは地政学・原油の動きと金融政策を同時に見極める局面になる。",
-              "outlook": "【推測】物価警戒を強める姿勢が米金利とドルを押し上げれば、金には下向きの圧力となる。景気への懸念や引き締めに慎重な姿勢で金利が低下するなら下支えとなり得るため、会合後は政策文言と市場反応を照合したい。",
-              "sourceName": "米連邦準備制度理事会（FRB）",
-              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-              "publishedAtUtc": null,
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-25T20:44:54.665Z"
-            }
-          ],
-          "indicators": [
-            {
-              "name": "日本・企業向けサービス価格指数（2026年9月、日本10/27 08:50）",
-              "scheduledAtUtc": "2026-10-26T23:50:00.000Z",
-              "sourceName": "日本銀行",
-              "sourceUrl": "https://www.boj.or.jp/en/about/calendar/",
-              "retrievedAtUtc": "2026-10-25T20:45:46.806Z",
-              "unit": "％",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "米GDP・2026年7～9月期速報値（米10/29 08:30 EDT／日本10/29 21:30）",
-              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
-              "sourceName": "米商務省経済分析局（BEA）",
-              "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
-              "retrievedAtUtc": "2026-10-25T20:44:54.665Z",
-              "unit": "前期比年率％",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "米個人所得・消費支出／PCE物価・2026年9月（米10/29 08:30 EDT／日本10/29 21:30）",
-              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
-              "sourceName": "米商務省経済分析局（BEA）",
-              "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-              "retrievedAtUtc": "2026-10-25T20:44:54.665Z",
               "unit": "％",
               "consensus": null,
               "actual": null,
