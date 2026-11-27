@@ -1,9 +1,261 @@
 {
   "kind": "kati-approved-static-briefs-v1",
-  "builtAtUtc": "2026-11-26T20:45:35.221Z",
+  "builtAtUtc": "2026-11-27T20:48:08.358Z",
   "documents": [
     {
       "role": "current",
+      "sha256": "c4e4d8a627ee88186d515b7d701ff79c585d52be8a54ee8ac474359e66d9c6c3",
+      "manuscript": {
+        "kind": "kati-brief-manuscript-v1",
+        "contentKind": "real",
+        "status": "approved",
+        "revision": 1,
+        "approval": {
+          "approvedAtUtc": "2026-11-27T20:48:08.353Z",
+          "reference": "Editorial review under owner-authorized daily publication workflow"
+        },
+        "evidence": [
+          {
+            "subjectId": "material:kitco-gold-bid",
+            "sourceUrl": "https://www.kitco.com/charts/gold",
+            "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+            "verification": "reviewed",
+            "note": "Kitcoで買い気配、更新時刻、日中レンジを確認。"
+          },
+          {
+            "subjectId": "material:kitco-am-gold",
+            "sourceUrl": "https://www.kitco.com/news/article/2026-11-27/gold-rallies-above-3600-silver-surges-dollar-weakness-supports-metals-kitco",
+            "retrievedAtUtc": "2026-11-27T20:46:00.000Z",
+            "verification": "reviewed",
+            "note": "Kitco朝の市場記事で、反発の時系列と報道の背景を確認。"
+          },
+          {
+            "subjectId": "material:us-advance-goods-trade",
+            "sourceUrl": "https://www.census.gov/econ/indicators/2026/advance_report2610.pdf",
+            "retrievedAtUtc": "2026-11-27T20:47:38.000Z",
+            "verification": "reviewed",
+            "note": "公表PDFで財のみの赤字額と在庫の季節調整済み前月比、8:30 ESTの発表時刻を確認。"
+          },
+          {
+            "subjectId": "material:tokyo-cpi-nov",
+            "sourceUrl": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf",
+            "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+            "verification": "reviewed",
+            "note": "総務省の11月速報本文で対象地域、前年比、比較表、寄与度を確認。"
+          },
+          {
+            "subjectId": "material:usdjpy-reference",
+            "sourceUrl": "https://www.kitco.com/price",
+            "retrievedAtUtc": "2026-11-27T20:47:38.000Z",
+            "verification": "reviewed",
+            "note": "Kitcoの時刻付き換算表で1ドル当たりの円と表示変化率を確認。"
+          },
+          {
+            "subjectId": "indicator:0",
+            "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+            "retrievedAtUtc": "2026-11-27T20:47:17.000Z",
+            "verification": "reviewed",
+            "note": "ISM公式の製造業発表日程と米東部時間を確認。"
+          },
+          {
+            "subjectId": "indicator:1",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
+            "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+            "verification": "reviewed",
+            "note": "BLS公式日程で対象月と米東部時間を確認。"
+          },
+          {
+            "subjectId": "indicator:2",
+            "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
+            "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+            "verification": "reviewed",
+            "note": "BLS公式日程で対象月と米東部時間を確認。"
+          },
+          {
+            "subjectId": "price:XAUUSD",
+            "sourceUrl": "https://www.kitco.com/charts/gold",
+            "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+            "verification": "reviewed",
+            "note": "Kitcoがライブとする現物買い気配の05:40 JST時点値を確認。"
+          },
+          {
+            "subjectId": "price:USDJPY",
+            "sourceUrl": "https://www.kitco.com/price",
+            "retrievedAtUtc": "2026-11-27T20:47:38.000Z",
+            "verification": "reviewed",
+            "note": "Kitcoがライブのスポットレートと説明する換算表で、05:37 JSTの参考値を確認。"
+          }
+        ],
+        "record": {
+          "id": "kati-daily-2026-11-28-r1",
+          "dateJst": "2026-11-28",
+          "generatedAtUtc": "2026-11-27T20:48:08.351Z",
+          "period": {
+            "startUtc": "2026-11-26T20:45:08.000Z",
+            "endUtc": "2026-11-27T20:47:38.000Z"
+          },
+          "conclusion": [
+            "米感謝祭翌日の金は、安値からの買い戻しが入り、日中高値からは押し戻されたものの2％超上昇しました。",
+            "週明けは、米ISM製造業と求人件数、その後の雇用統計を受けてドルと米金利が反発するかが焦点です。"
+          ],
+          "materials": [
+            {
+              "id": "kitco-gold-bid",
+              "title": "金は2％超反発、日中高値からは押し戻される",
+              "fact": "Kitcoの金現物買い気配は28日05:40（日本時間）に1トロイオンス3,653.00ドル、同社表示で87.50ドル（2.45％）高でした。日中レンジは3,569.60〜3,686.00ドルで、清算値ではありません。",
+              "outlook": "【推測】米株が短縮取引だった日の値動きだけでは、買い戻しの持続性は測れません。通常取引に戻っても金が上げを保つか、ドルと合わせて見ます。",
+              "sourceName": "Kitco Metals",
+              "sourceUrl": "https://www.kitco.com/charts/gold",
+              "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+              "publishedAtUtc": null,
+              "publishedDate": null
+            },
+            {
+              "id": "kitco-am-gold",
+              "title": "朝方のドル安と買い戻しが金の支え",
+              "fact": "Kitcoの米国時間27日朝の報道では、金は米指標の発表前に3,600ドルを回復。ドル安や安値を拾う買いを背景に、銀は金を上回る上昇を見せたと報じました。",
+              "outlook": "【推測】ドルの上昇が一服すればドル建て金の支えになります。一方、米金利が高止まりすれば利息を生まない金の戻りは抑えられやすくなります。",
+              "sourceName": "Kitco News",
+              "sourceUrl": "https://www.kitco.com/news/article/2026-11-27/gold-rallies-above-3600-silver-surges-dollar-weakness-supports-metals-kitco",
+              "retrievedAtUtc": "2026-11-27T20:46:00.000Z",
+              "publishedAtUtc": null,
+              "publishedDate": "2026-11-27"
+            },
+            {
+              "id": "us-advance-goods-trade",
+              "title": "米10月の財貿易赤字が拡大、在庫も増加",
+              "fact": "27日22:30発表の米10月速報では、財貿易赤字は1,495億ドルで、9月の1,351億ドルから拡大しました。卸売在庫は前月比0.9％増、小売在庫は同0.8％増でした。",
+              "outlook": "【推測】財赤字の拡大は成長見通しの重しになり得ますが、輸入増が主因で在庫も増えています。金の反発は発表前からで、この数字がその後も金を支えるかはドルと米金利の反応次第です。",
+              "sourceName": "米国勢調査局",
+              "sourceUrl": "https://www.census.gov/econ/indicators/2026/advance_report2610.pdf",
+              "retrievedAtUtc": "2026-11-27T20:47:38.000Z",
+              "publishedAtUtc": "2026-11-27T13:30:00.000Z",
+              "publishedDate": null
+            },
+            {
+              "id": "tokyo-cpi-nov",
+              "title": "東京のコアCPIは2.9％、エネルギー除く伸びは鈍化",
+              "fact": "東京都区部の11月CPI速報は前年比で総合2.8％、生鮮食品を除いて2.9％（10月2.6％）、生鮮食品とエネルギーを除いて2.5％（同2.6％）でした。総合の伸び率の変化に対し、エネルギーの寄与はプラス0.34ポイントでした。",
+              "outlook": "【推測】見出しの伸びは円を支える材料になり得ますが、エネルギーを除くと伸びは鈍り、物価全体が加速したわけではありません。円高の場合、円換算の金はドル建てほど上がらないことがあります。",
+              "sourceName": "総務省統計局",
+              "sourceUrl": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf",
+              "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+              "publishedAtUtc": "2026-11-26T23:30:00.000Z",
+              "publishedDate": null
+            },
+            {
+              "id": "usdjpy-reference",
+              "title": "ドル円は159円台半ばの参考値",
+              "fact": "Kitcoの換算表では28日05:37（日本時間）に1ドル159.5540円で、同社表示で0.17％高でした。取引所の終値ではありません。",
+              "outlook": "【推測】円に対するドル高と、主要通貨全体に対するドル高は区別が必要です。ドル全体と米金利がともに上がる場合は、ドル建て金の重荷になりやすくなります。",
+              "sourceName": "Kitco",
+              "sourceUrl": "https://www.kitco.com/price",
+              "retrievedAtUtc": "2026-11-27T20:47:38.000Z",
+              "publishedAtUtc": null,
+              "publishedDate": null
+            }
+          ],
+          "indicators": [
+            {
+              "name": "米11月ISM製造業景況指数（12/2 00:00 JST）",
+              "scheduledAtUtc": "2026-12-01T15:00:00.000Z",
+              "unit": "指数",
+              "sourceName": "ISM",
+              "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+              "retrievedAtUtc": "2026-11-27T20:47:17.000Z",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米10月JOLTS求人件数（12/2 00:00 JST）",
+              "scheduledAtUtc": "2026-12-01T15:00:00.000Z",
+              "unit": "件",
+              "sourceName": "米労働統計局",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
+              "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            },
+            {
+              "name": "米11月雇用統計（12/4 22:30 JST）",
+              "scheduledAtUtc": "2026-12-04T13:30:00.000Z",
+              "unit": "複数系列",
+              "sourceName": "米労働統計局",
+              "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
+              "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+              "consensus": null,
+              "actual": null,
+              "previous": null,
+              "revisedPrevious": null
+            }
+          ],
+          "prices": [
+            {
+              "id": "XAUUSD",
+              "label": "金現物",
+              "value": 3653,
+              "unit": "USD/トロイオンス",
+              "status": "live",
+              "observedAtUtc": "2026-11-27T20:40:00.000Z",
+              "retrievedAtUtc": "2026-11-27T20:47:11.000Z",
+              "sourceName": "Kitco Metals",
+              "sourceUrl": "https://www.kitco.com/charts/gold"
+            },
+            {
+              "id": "USDJPY",
+              "label": "ドル／円",
+              "value": 159.554,
+              "unit": "JPY/USD",
+              "status": "live",
+              "observedAtUtc": "2026-11-27T20:37:00.000Z",
+              "retrievedAtUtc": "2026-11-27T20:47:38.000Z",
+              "sourceName": "Kitco",
+              "sourceUrl": "https://www.kitco.com/price"
+            },
+            {
+              "id": "DXY",
+              "label": "ドル指数",
+              "value": null,
+              "unit": "指数",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "UST10Y",
+              "label": "米10年債利回り",
+              "value": null,
+              "unit": "％",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            },
+            {
+              "id": "WTI",
+              "label": "WTI原油",
+              "value": null,
+              "unit": "USD/バレル",
+              "status": "unconfirmed",
+              "observedAtUtc": null,
+              "retrievedAtUtc": null,
+              "sourceName": null,
+              "sourceUrl": null
+            }
+          ],
+          "revisionOf": null
+        }
+      }
+    },
+    {
+      "role": "history",
       "sha256": "e1bb2937fc217dbf594fa8bae00aa32cf3cd64b7b6fbf8354c5b254aa637be9d",
       "manuscript": {
         "kind": "kati-brief-manuscript-v1",
@@ -6725,282 +6977,6 @@
               "sourceName": "米労働統計局（BLS）",
               "sourceUrl": "https://www.bls.gov/schedule/2026/home.htm",
               "retrievedAtUtc": "2026-10-28T20:51:12.612Z",
-              "unit": "％",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            }
-          ],
-          "prices": [
-            {
-              "id": "XAUUSD",
-              "label": "金現物",
-              "value": null,
-              "unit": "USD/トロイオンス",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "USDJPY",
-              "label": "ドル／円",
-              "value": null,
-              "unit": "JPY/USD",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "DXY",
-              "label": "ドル指数",
-              "value": null,
-              "unit": "指数",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "UST10Y",
-              "label": "米10年債利回り",
-              "value": null,
-              "unit": "％",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            },
-            {
-              "id": "WTI",
-              "label": "WTI原油",
-              "value": null,
-              "unit": "USD/バレル",
-              "status": "unconfirmed",
-              "observedAtUtc": null,
-              "retrievedAtUtc": null,
-              "sourceName": null,
-              "sourceUrl": null
-            }
-          ],
-          "revisionOf": null
-        }
-      }
-    },
-    {
-      "role": "history",
-      "sha256": "f635e1103aa7fa17f4368d5242473bc431ce165b35bfbe7309bd4b74573a01c6",
-      "manuscript": {
-        "kind": "kati-brief-manuscript-v1",
-        "contentKind": "real",
-        "status": "approved",
-        "revision": 1,
-        "approval": {
-          "approvedAtUtc": "2026-10-27T20:45:53.863Z",
-          "reference": "Editorial review under owner-authorized daily publication workflow"
-        },
-        "evidence": [
-          {
-            "subjectId": "material:gold-recovery",
-            "sourceUrl": "https://in.marketscreener.com/news/gold-gains-on-softer-oil-prices-ahead-of-fed-meeting-ce785cdddc8ef121",
-            "retrievedAtUtc": "2026-10-27T20:43:25.626Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:oil-diplomacy",
-            "sourceUrl": "https://live.euronext.com/en/financial-news/oil-falls-middle-east-talks-outweigh-concern-over-fresh-strikes",
-            "retrievedAtUtc": "2026-10-27T20:43:25.626Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:dollar-strength",
-            "sourceUrl": "https://live.euronext.com/en/financial-news/dollar-firms-ahead-central-bank-meetings-steadier-stocks-stall-safe-haven-play",
-            "retrievedAtUtc": "2026-10-27T20:43:43.009Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:consumer-confidence",
-            "sourceUrl": "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html",
-            "retrievedAtUtc": "2026-10-27T20:43:43.009Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "material:treasury-background",
-            "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
-            "retrievedAtUtc": "2026-10-27T20:43:58.514Z",
-            "verification": "reviewed",
-            "note": "出典本文の対象日・事実を確認し、報道値と現在値、独自の見通しを区別。"
-          },
-          {
-            "subjectId": "indicator:0",
-            "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
-            "retrievedAtUtc": "2026-10-27T20:45:36.615Z",
-            "verification": "reviewed",
-            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
-          },
-          {
-            "subjectId": "indicator:1",
-            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-            "retrievedAtUtc": "2026-10-27T20:44:21.514Z",
-            "verification": "reviewed",
-            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
-          },
-          {
-            "subjectId": "indicator:2",
-            "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-            "retrievedAtUtc": "2026-10-27T20:44:21.514Z",
-            "verification": "reviewed",
-            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
-          },
-          {
-            "subjectId": "indicator:3",
-            "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
-            "retrievedAtUtc": "2026-10-27T20:43:34.612Z",
-            "verification": "reviewed",
-            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
-          },
-          {
-            "subjectId": "indicator:4",
-            "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-            "retrievedAtUtc": "2026-10-27T20:43:34.612Z",
-            "verification": "reviewed",
-            "note": "公式本文の発表予定日・時刻を確認。日本時間および米国夏時間からUTCへ換算。"
-          }
-        ],
-        "record": {
-          "id": "kati-daily-2026-10-28-r1",
-          "dateJst": "2026-10-28",
-          "generatedAtUtc": "2026-10-27T20:45:53.862Z",
-          "period": {
-            "startUtc": "2026-10-25T15:00:00.000Z",
-            "endUtc": "2026-10-27T20:45:53.862Z"
-          },
-          "conclusion": [
-            "金は27日の米国午後に反発し、原油安による物価警戒の緩和が支えとなった一方、ドル高と高い米金利は戻りを抑える材料となる。",
-            "次の分岐点は29日03:00 JSTのFOMC政策発表と03:30の記者会見で、金利・ドルが上向けば逆風、インフレへの警戒が和らぎ下向けば追い風となり、同日21:30の米GDP・PCE関連統計が続く。"
-          ],
-          "materials": [
-            {
-              "id": "gold-recovery",
-              "title": "金は米国午後に反発、現物4,055.14ドルの報道値",
-              "fact": "27日のReuters報道では、金現物は13:44 EDT（17:44 UTC／28日02:44 JST）時点で1％高の4,055.14ドル／トロイオンスとなった。記事は原油安を支援材料として挙げる。これは日中の途中値で、終値や本稿作成時の現在値ではない。",
-              "outlook": "【推測】原油安がインフレ懸念と追加引き締めへの警戒を和らげるなら、金の反発を支えやすい。ただしFOMCが物価抑制を強く打ち出し米金利が上昇すれば、利息を生まない金には再び下押し圧力がかかる。",
-              "sourceName": "Reuters（MarketScreener掲載）",
-              "sourceUrl": "https://in.marketscreener.com/news/gold-gains-on-softer-oil-prices-ahead-of-fed-meeting-ce785cdddc8ef121",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-27",
-              "retrievedAtUtc": "2026-10-27T20:43:25.626Z"
-            },
-            {
-              "id": "oil-diplomacy",
-              "title": "原油は下落、外交期待と供給不安が綱引き",
-              "fact": "27日のReuters報道では、13:44 EDT（17:44 UTC／28日02:44 JST）時点でBrent先物は1.8％安の113.72ドル／バレル、WTI先物は1.9％安の99.83ドルだった。中東での協議に関心が向かう一方、フーシ派とサウジアラビアの衝突、米国・イスラエルとイランの戦闘拡大への懸念が残る。価格はいずれも途中値である。",
-              "outlook": "【推測】供給懸念の後退による原油安は、物価と金利の上昇圧力を抑える経路で金を支え得る。反対に攻撃拡大では安全資産需要が金を押し上げる力と、原油高・高金利が押し下げる力が競合するため、実際の供給障害と米金利の反応が重要になる。",
-              "sourceName": "Reuters（Euronext掲載）",
-              "sourceUrl": "https://live.euronext.com/en/financial-news/oil-falls-middle-east-talks-outweigh-concern-over-fresh-strikes",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-27",
-              "retrievedAtUtc": "2026-10-27T20:43:25.626Z"
-            },
-            {
-              "id": "dollar-strength",
-              "title": "ドルは主要通貨に対して上昇、円は157円台後半",
-              "fact": "27日のニューヨーク／ロンドン発Reuters記事では、ドル指数は0.27％高の102.29、ドル円は0.24％高の157.90円／ドルだった。ユーロは対ドルで0.33％下落した。記事中の個別価格の観測時刻は明示されておらず、27日の報道値であって公式終値ではない。",
-              "outlook": "【推測】ドル高が続けば他通貨の買い手にとってドル建て金が割高となり、上値を抑えやすい。一方、円安は円換算の金を支える方向に働くため、FOMC後はドル建て金の値動きとドル円の変化を分けて見る必要がある。",
-              "sourceName": "Reuters（Euronext掲載）",
-              "sourceUrl": "https://live.euronext.com/en/financial-news/dollar-firms-ahead-central-bank-meetings-steadier-stocks-stall-safe-haven-play",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-27",
-              "retrievedAtUtc": "2026-10-27T20:43:43.009Z"
-            },
-            {
-              "id": "consumer-confidence",
-              "title": "米消費者信頼感は改善、購買力への懸念は残る",
-              "fact": "The Conference Boardが27日10:00 EDT（14:00 UTC／23:00 JST）に公表した10月の消費者信頼感指数は91.7（1985年＝100）で、上方改定された9月の84.2から7.5ポイント上昇した。今回の初報の調査期間は10月1～21日。公表文はガソリン価格の低下と整合的な改善とする一方、今後6か月のサービス・耐久財への支出計画は弱まったとしている。",
-              "outlook": "【推測】消費者心理の回復が景気の底堅さと受け止められ金利・ドルを押し上げれば、金には逆風となる。ただし支出意欲の弱さも残るため、29日のPCE関連統計で消費と物価の両面を確認し、景気減速による金利低下が金を支える可能性も見極めたい。",
-              "sourceName": "The Conference Board（PR Newswire配信）",
-              "sourceUrl": "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html",
-              "publishedAtUtc": "2026-10-27T14:00:00.000Z",
-              "publishedDate": null,
-              "retrievedAtUtc": "2026-10-27T20:43:43.009Z"
-            },
-            {
-              "id": "treasury-background",
-              "title": "米金利の公式参考値：26日の10年債利回りは5.00％",
-              "fact": "FRBが27日に更新したH.15の最新掲載日である26日の参考値は、米国債10年の名目固定年限利回りが年率5.00％、物価連動10年が2.66％だった。いずれも23日と同じで、27日の市場値ではない。固定年限利回りはイールドカーブから補間された系列である。",
-              "outlook": "【推測】高い実質利回りが維持されれば、利息を生まない金を保有する機会費用が大きく、反発の重荷となる。FOMC後に実質利回りが下がれば金の支えが強まり、上がれば原油安による追い風を打ち消し得る。",
-              "sourceName": "米連邦準備制度理事会（FRB）",
-              "sourceUrl": "https://www.federalreserve.gov/releases/h15/",
-              "publishedAtUtc": null,
-              "publishedDate": "2026-10-27",
-              "retrievedAtUtc": "2026-10-27T20:43:58.514Z"
-            }
-          ],
-          "indicators": [
-            {
-              "name": "米EIA週間石油統計（米10/28 10:30 EDT／日本10/28 23:30）",
-              "scheduledAtUtc": "2026-10-28T14:30:00.000Z",
-              "sourceName": "米エネルギー情報局（EIA）",
-              "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
-              "retrievedAtUtc": "2026-10-27T20:45:36.615Z",
-              "unit": "バレル",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "FOMC政策発表（米10/28 14:00 EDT／日本10/29 03:00）",
-              "scheduledAtUtc": "2026-10-28T18:00:00.000Z",
-              "sourceName": "米連邦準備制度理事会（FRB）",
-              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-              "retrievedAtUtc": "2026-10-27T20:44:21.514Z",
-              "unit": "％",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "FRB議長記者会見（米10/28 14:30 EDT／日本10/29 03:30）",
-              "scheduledAtUtc": "2026-10-28T18:30:00.000Z",
-              "sourceName": "米連邦準備制度理事会（FRB）",
-              "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-              "retrievedAtUtc": "2026-10-27T20:44:21.514Z",
-              "unit": "予定",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "米GDP・2026年7～9月期速報値（米10/29 08:30 EDT／日本10/29 21:30）",
-              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
-              "sourceName": "米商務省経済分析局（BEA）",
-              "sourceUrl": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
-              "retrievedAtUtc": "2026-10-27T20:43:34.612Z",
-              "unit": "前期比年率％",
-              "consensus": null,
-              "actual": null,
-              "previous": null,
-              "revisedPrevious": null
-            },
-            {
-              "name": "米個人所得・消費支出／PCE物価・2026年9月（米10/29 08:30 EDT／日本10/29 21:30）",
-              "scheduledAtUtc": "2026-10-29T12:30:00.000Z",
-              "sourceName": "米商務省経済分析局（BEA）",
-              "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-              "retrievedAtUtc": "2026-10-27T20:43:34.612Z",
               "unit": "％",
               "consensus": null,
               "actual": null,
